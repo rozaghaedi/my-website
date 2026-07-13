@@ -1,0 +1,10 @@
+---
+title: "LDA-Based Grievance Mechanism Analysis"
+description: "Topic modelling of 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics."
+date: 2025-05-01
+categories: [NLP, Topic Modelling, Text Mining]
+---
+
+Applied advanced LDA topic modelling to 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics to analyse patterns in corporate disclosure practices.
+
+[View code on GitHub](https://github.com/rozaghaedi/LDA-grievance-topic-modeling)

@@ -1,0 +1,12 @@
+---
+title: "Welcome to my blog"
+description: "First post — more research updates coming soon."
+author: "Razieh Ghaedi"
+date: "2026-07-13"
+categories:
+  - General
+---
+
+Welcome! I'll be using this space to share updates on my research in deep learning, multimodal AI, and human-centered AI, along with notes on papers, projects, and conferences I attend.
+
+Stay tuned for more posts.

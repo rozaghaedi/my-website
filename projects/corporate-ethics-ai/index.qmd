@@ -1,0 +1,10 @@
+---
+title: "Corporate Ethics Automation System"
+description: "A Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry)."
+date: 2025-02-01
+categories: [Multi-Agent AI, NLP, Kaggle]
+---
+
+Kaggle Agents Intensive hackathon entry: built a Google ADK automation tool to replicate KnowTheChain benchmark workflows in under 60 seconds using PDF extraction, sentiment analysis, correlation analysis, and regression.
+
+[View code on GitHub](https://github.com/rozaghaedi/Multi-Agent-AI-System-for-Supply-Chain-Ethics-Analysis) · [View writeup on Kaggle](https://www.kaggle.com/competitions/agents-intensive-capstone-project/writeups/sentinels-for-supply-chain-ethics-multi-agent-ai-f)

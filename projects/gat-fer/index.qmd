@@ -1,0 +1,12 @@
+---
+title: "Graph-Attention Network for Cross-Domain Facial Expression Recognition"
+description: "ResNet-50 and Graph Attention Networks with adversarial domain alignment, achieving 74% mean accuracy across six datasets."
+date: 2025-04-01
+categories: [Deep Learning, Graph Neural Networks, Computer Vision]
+---
+
+Integrated ResNet-50 and Graph Attention Networks with adversarial domain alignment (MMD, CORAL, GRL). Achieved 74% mean accuracy across six datasets: RAF-DB, FER2013, CK+, JAFFE, ExpW, and SFEW2.0.
+
+This work was presented at **ACML 2025**.
+
+[View code on GitHub](https://github.com/rozaghaedi/GAT-ADA-CD-FER)

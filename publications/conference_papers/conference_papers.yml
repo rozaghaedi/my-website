@@ -1,0 +1,7 @@
+- title: 'Graph-Attention Network with Adversarial Domain Alignment for Robust Cross-Domain Facial Expression Recognition'
+  path: https://proceedings.mlr.press/v304/ghaedi26a.html
+  author: 'Ghaedi, R., BabaAhmadi, A., Alam, N., Fan, X.'
+  description: >
+    Presented at ACML 2025. Also see the [poster](https://drive.google.com/file/d/183MV4BVACMmreBg-kKKSp_jT-gOVzGYH/view?usp=drive_link).
+  categories: [Deep Learning, Computer Vision, Presented]
+  date: 2025-06-01

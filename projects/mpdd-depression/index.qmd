@@ -1,0 +1,10 @@
+---
+title: "Multimodal Personalized Depression Detection"
+description: "Fusing voice, facial cues, and personal attributes to predict depression level using attention-based deep learning (MPDD Challenge @ ACM Multimedia 2025)."
+date: 2025-01-01
+categories: [Deep Learning, Multimodal Learning, Affective Computing]
+---
+
+Built a multimodal, personalized depression detection system that fuses voice, facial cues, and personal attributes to predict depression level using attention-based deep learning, developed for the **MPDD Challenge @ ACM Multimedia 2025**.
+
+[View code on GitHub](https://github.com/rozaghaedi/mpdd-depression-detection)

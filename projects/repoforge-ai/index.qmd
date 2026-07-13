@@ -1,0 +1,10 @@
+---
+title: "RepoForge AI: Agentic Test Generation for Public Python Repositories"
+description: "A multi-agent system that scans public Git repositories and generates validated pytest suites using RAG over ChromaDB-indexed code with Gemini-based generation."
+date: 2025-03-01
+categories: [Multi-Agent AI, LLM Agents, Software Engineering]
+---
+
+Built a multi-agent system (an OrchestratorAgent plus specialised agents for ingestion, code analysis, API discovery, retrieval, test planning, and test writing) that scans public Git repositories and generates validated pytest suites.
+
+Combined RAG over ChromaDB-indexed code chunks with Gemini-based generation, plus safety checks (secret redaction, unsafe-pattern blocking) to produce reviewable, downloadable test artifacts.
