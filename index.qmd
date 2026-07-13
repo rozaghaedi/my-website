@@ -12,7 +12,7 @@ format: html
 <div class="landing-name" role="heading" aria-level="1">Razieh<br>Ghaedi</div>
 
 <p class="landing-tagline">
-I work on deep learning, multimodal learning, and human-centered AI, turning research on facial expression recognition, affective computing, and social impact applications into practical, responsible AI systems.
+I work on AI-driven forecasting and fairness-aware machine learning to reduce health screening inequalities, combining graph neural networks, discrete-event simulation, and qualitative research to help build more equitable public health systems.
 </p>
 
 <div class="landing-social" aria-label="Social links">
