@@ -1,87 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://rozaghaedi.github.io/my-website/blog/index 2.html</loc>
-    <lastmod>2025-11-13T08:49:41.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/blog/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.777Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/about/index 2.html</loc>
-    <lastmod>2026-07-13T09:26:04.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/talks/index 2.html</loc>
-    <lastmod>2025-11-13T08:49:41.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/talks/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/projects/repoforge-ai/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/projects/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/projects/mpdd-depression/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/publications/conference_papers/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/publications/technical_reports/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/publications/working_papers/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.780Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/publications/book_chapters/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/publications/journal_articles/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.779Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/projects/corporate-ethics-ai/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/projects/lda-grievance/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/projects/gat-fer/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.778Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/projects/index 2.html</loc>
-    <lastmod>2026-07-13T09:26:31.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/talks/first-post/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.782Z</lastmod>
-  </url>
-  <url>
-    <loc>https://rozaghaedi.github.io/my-website/about/index.html</loc>
-    <lastmod>2026-07-13T17:06:20.576Z</lastmod>
+    <loc>https://rozaghaedi.github.io/my-website/blog/first-post/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
   </url>
   <url>
     <loc>https://rozaghaedi.github.io/my-website/index.html</loc>
-    <lastmod>2026-07-13T17:07:00.643Z</lastmod>
+    <lastmod>2026-07-13T17:56:16.000Z</lastmod>
   </url>
   <url>
-    <loc>https://rozaghaedi.github.io/my-website/blog/first-post/index.html</loc>
-    <lastmod>2026-07-13T09:56:21.777Z</lastmod>
+    <loc>https://rozaghaedi.github.io/my-website/talks/index.html</loc>
+    <lastmod>2026-07-13T17:56:34.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/projects/gat-fer/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/projects/lda-grievance/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/projects/corporate-ethics-ai/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/publications/journal_articles/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/publications/book_chapters/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/publications/working_papers/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/publications/technical_reports/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/publications/conference_papers/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/projects/mpdd-depression/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/projects/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/projects/repoforge-ai/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/about/index.html</loc>
+    <lastmod>2026-07-13T17:56:29.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://rozaghaedi.github.io/my-website/blog/index.html</loc>
+    <lastmod>2026-07-13T17:56:04.000Z</lastmod>
   </url>
 </urlset>
