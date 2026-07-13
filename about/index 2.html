@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Selected research and applied AI projects.">
 
-<title>Projects – Razieh Ghaedi</title>
+<title>About Me – Razieh Ghaedi</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -73,68 +70,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Projects – Razieh Ghaedi">
-<meta property="og:description" content="Selected research and applied AI projects.">
+<meta property="og:title" content="About Me – Razieh Ghaedi">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Razieh Ghaedi">
 </head>
 
@@ -167,7 +106,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+    <a class="nav-link" href="../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -217,14 +156,9 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">About Me</h1>
 </div>
 
-<div>
-  <div class="description">
-    Selected research and applied AI projects.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -239,131 +173,73 @@ window.Quarto = {
 </header>
 
 
+<p>I am <strong>Razieh Ghaedi</strong>, a Research Associate at the <strong>University of Sheffield</strong> with a strong research background in deep learning, multimodal learning, and human-centered AI. My work spans data-driven models for cross-domain facial expression recognition, affective computing, and socially responsible AI applications, with peer-reviewed publications in <em>Knowledge-Based Systems</em>, <em>ACML 2025</em>, and <em>IEEE Access</em>.</p>
+<p>Before moving into research, I spent several years as a software engineer building enterprise applications, which now shapes how I approach building reliable, well-engineered AI systems rather than one-off research prototypes.</p>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<ul>
+<li><p><strong>MSc in Computer Science (Distinction, GPA 80/100)</strong>, Manchester Metropolitan University, UK — Sep 2023 to Oct 2024 Dissertation: <em>Deep Learning-Based Cross-Domain Facial Expression Recognition</em> (Grade: 80/100) Key modules: Advanced Object-Oriented Programming, Algorithms and Data Structures, Cloud and Enterprise Development, Information Systems and Databases, Advanced Computer Networks, AI Ethics and Governance</p></li>
+<li><p><strong>BSc in Information Technology Engineering</strong> — Sep 2009 to Feb 2014 Key modules: Data Structures, Algorithms Design, Advanced Programming, Operating Systems, Database Design, Artificial Intelligence, Digital Electronics, Software Engineering</p></li>
+</ul>
+</section>
+<section id="research-professional-experience" class="level2">
+<h2 class="anchored" data-anchor-id="research-professional-experience">Research &amp; Professional Experience</h2>
+<p><strong>Research Associate</strong>, University of Sheffield — 2024 to Present</p>
+<ul>
+<li>Developed a multi-agent AI system for automated corporate ethics benchmarking, enabling rapid assessment of forced-labour risks across global ICT supply chains through parallel data processing and predictive analytics.</li>
+<li>Applied NLP and topic modelling (LDA, BERTopic) to analyse UK Modern Slavery Act statements, evaluating grievance mechanism effectiveness through systematic text mining of corporate disclosures.</li>
+<li>Designed and implemented a Decision Support System using Best-Worst Method (BWM) and Spanning Tree Enumeration (STE) for complex decision-making in supply chain management contexts.</li>
+<li>Contributing to multiple interdisciplinary publications bridging AI, operations management, and social impact research.</li>
+</ul>
+<p><strong>Teaching Assistant</strong>, rTriibe (Education Recruitment Agency), Sheffield, UK — 2025 to Present</p>
+<ul>
+<li>Assisted classroom teachers across primary and secondary schools with lesson delivery, classroom management, and one-to-one pupil support.</li>
+</ul>
+<p><strong>Software Engineer</strong>, Novin Asan Tech Mana Company, Shiraz, Iran — 2014 to 2021</p>
+<ul>
+<li>Developed and maintained Java-based enterprise applications with emphasis on backend logic and relational database integration.</li>
+<li>Led the migration of legacy systems to modern frameworks, improving system maintainability and user experience.</li>
+<li>Collaborated with cross-functional teams to troubleshoot, deploy, and document software modules.</li>
+</ul>
+</section>
+<section id="technical-skills" class="level2">
+<h2 class="anchored" data-anchor-id="technical-skills">Technical Skills</h2>
+<ul>
+<li><strong>Programming &amp; Scripting:</strong> Python (Advanced), Java (Advanced), C# (Intermediate)</li>
+<li><strong>Machine Learning &amp; AI:</strong> Deep Learning, Graph Neural Networks (GNNs), Transfer Learning, Domain Adaptation, Multimodal Learning, Representation Learning</li>
+<li><strong>Data Analysis &amp; Visualisation:</strong> Advanced Excel, JMP, Power BI, Tableau, SQL, Statistical Analysis, Exploratory Data Analysis (EDA)</li>
+<li><strong>Frameworks &amp; Libraries:</strong> PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers</li>
+<li><strong>Databases &amp; Cloud:</strong> PostgreSQL, MySQL, MongoDB, AWS (EC2, S3)</li>
+<li><strong>Tools &amp; Development:</strong> Git, Jupyter, LaTeX, REST APIs</li>
+</ul>
+</section>
+<section id="academic-service" class="level2">
+<h2 class="anchored" data-anchor-id="academic-service">Academic Service</h2>
+<ul>
+<li>Peer Reviewer, <em>Discover Artificial Intelligence</em> (Springer Nature) — 2025 to Present</li>
+<li>Peer Reviewer, <em>IEEE Transactions on Consumer Electronics</em> — 2025 to Present</li>
+</ul>
+</section>
+<section id="achievements-certifications" class="level2">
+<h2 class="anchored" data-anchor-id="achievements-certifications">Achievements &amp; Certifications</h2>
+<ul>
+<li>GRE: 328 (Verbal 158, Quantitative 170, AWA 4.0)</li>
+<li><em>The Art and Science of Uncertainty and the Future</em> (Interdisciplinary Summer School), DL4SG (Data Lab for Social Good), Cardiff University — Jul 2026</li>
+<li>IEEE Computer Society Member (No.&nbsp;100476059)</li>
+</ul>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><strong>Dr.&nbsp;Nashid Alam</strong> — MSc Supervisor, Lecturer, Manchester Metropolitan University (<a href="mailto:n.alam@mmu.ac.uk">n.alam@mmu.ac.uk</a>)</li>
+<li><strong>Dr.&nbsp;Rahim Taheri</strong> — BSc Supervisor, Senior Lecturer, University of Portsmouth (<a href="mailto:rahim.taheri@port.ac.uk">rahim.taheri@port.ac.uk</a>)</li>
+<li><strong>Dr.&nbsp;Amin Vafadarnikjoo</strong> — Research Supervisor, Lecturer, University of Sheffield (<a href="mailto:a.vafadarnikjoo@sheffield.ac.uk">a.vafadarnikjoo@sheffield.ac.uk</a>)</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TkxQJTJDVG9waWMlMjBNb2RlbGxpbmclMkNUZXh0JTIwTWluaW5n" data-listing-date-sort="1746054000000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<a href="../projects/lda-grievance/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LDA-Based Grievance Mechanism Analysis
-</h5>
-<div class="card-text listing-description delink">
-<p>Topic modelling of 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-May 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RGVlcCUyMExlYXJuaW5nJTJDR3JhcGglMjBOZXVyYWwlMjBOZXR3b3JrcyUyQ0NvbXB1dGVyJTIwVmlzaW9u" data-listing-date-sort="1743462000000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
-<a href="../projects/gat-fer/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Graph-Attention Network for Cross-Domain Facial Expression Recognition
-</h5>
-<div class="card-text listing-description delink">
-<p>ResNet-50 and Graph Attention Networks with adversarial domain alignment, achieving 74% mean accuracy across six datasets.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Apr 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TXVsdGktQWdlbnQlMjBBSSUyQ0xMTSUyMEFnZW50cyUyQ1NvZnR3YXJlJTIwRW5naW5lZXJpbmc=" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
-<a href="../projects/repoforge-ai/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-RepoForge AI: Agentic Test Generation for Public Python Repositories
-</h5>
-<div class="card-text listing-description delink">
-<p>A multi-agent system that scans public Git repositories and generates validated pytest suites using RAG over ChromaDB-indexed code with Gemini-based generation.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="TXVsdGktQWdlbnQlMjBBSSUyQ05MUCUyQ0thZ2dsZQ==" data-listing-date-sort="1738368000000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<a href="../projects/corporate-ethics-ai/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Corporate Ethics Automation System
-</h5>
-<div class="card-text listing-description delink">
-<p>A Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry).</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="RGVlcCUyMExlYXJuaW5nJTJDTXVsdGltb2RhbCUyMExlYXJuaW5nJTJDQWZmZWN0aXZlJTIwQ29tcHV0aW5n" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<a href="../projects/mpdd-depression/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Multimodal Personalized Depression Detection
-</h5>
-<div class="card-text listing-description delink">
-<p>Fusing voice, facial cues, and personal attributes to predict depression level using attention-based deep learning (MPDD Challenge @ ACM Multimedia 2025).</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

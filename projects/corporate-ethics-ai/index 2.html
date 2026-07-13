@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Selected research and applied AI projects.">
+<meta name="dcterms.date" content="2025-02-01">
+<meta name="description" content="A Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry).">
 
-<title>Projects – Razieh Ghaedi</title>
+<title>Corporate Ethics Automation System – Razieh Ghaedi</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -27,25 +28,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c8dd3ecb909a5dd7687d1240671083d3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c8dd3ecb909a5dd7687d1240671083d3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,68 +72,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Projects – Razieh Ghaedi">
-<meta property="og:description" content="Selected research and applied AI projects.">
+<meta property="og:title" content="Corporate Ethics Automation System – Razieh Ghaedi">
+<meta property="og:description" content="A Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry).">
 <meta property="og:site_name" content="Razieh Ghaedi">
 </head>
 
@@ -145,7 +86,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Razieh Ghaedi</span>
     </a>
   </div>
@@ -156,18 +97,18 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> <i class="bi bi-house-door-fill" role="img">
+    <a class="nav-link" href="../../index.html"> <i class="bi bi-house-door-fill" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -176,25 +117,25 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-publications">    
         <li>
-    <a class="dropdown-item" href="../publications/journal_articles/index.html">
+    <a class="dropdown-item" href="../../publications/journal_articles/index.html">
  <span class="dropdown-text">Journal Articles</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../publications/conference_papers/index.html">
+    <a class="dropdown-item" href="../../publications/conference_papers/index.html">
  <span class="dropdown-text">Conference Papers</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../publications/book_chapters/index.html">
+    <a class="dropdown-item" href="../../publications/book_chapters/index.html">
  <span class="dropdown-text">Book Chapters</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../publications/working_papers/index.html">
+    <a class="dropdown-item" href="../../publications/working_papers/index.html">
  <span class="dropdown-text">Working Papers</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -217,12 +158,17 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
-</div>
+<h1 class="title">Corporate Ethics Automation System</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Multi-Agent AI</div>
+    <div class="quarto-category">NLP</div>
+    <div class="quarto-category">Kaggle</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    Selected research and applied AI projects.
+    A Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry).
   </div>
 </div>
 
@@ -230,6 +176,12 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 1, 2025</p>
+    </div>
+  </div>
   
     
   </div>
@@ -239,131 +191,12 @@ window.Quarto = {
 </header>
 
 
+<p>Kaggle Agents Intensive hackathon entry: built a Google ADK automation tool to replicate KnowTheChain benchmark workflows in under 60 seconds using PDF extraction, sentiment analysis, correlation analysis, and regression.</p>
+<p><a href="https://github.com/rozaghaedi/Multi-Agent-AI-System-for-Supply-Chain-Ethics-Analysis">View code on GitHub</a> · <a href="https://www.kaggle.com/competitions/agents-intensive-capstone-project/writeups/sentinels-for-supply-chain-ethics-multi-agent-ai-f">View writeup on Kaggle</a></p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="TkxQJTJDVG9waWMlMjBNb2RlbGxpbmclMkNUZXh0JTIwTWluaW5n" data-listing-date-sort="1746054000000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="29">
-<a href="../projects/lda-grievance/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-LDA-Based Grievance Mechanism Analysis
-</h5>
-<div class="card-text listing-description delink">
-<p>Topic modelling of 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-May 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="RGVlcCUyMExlYXJuaW5nJTJDR3JhcGglMjBOZXVyYWwlMjBOZXR3b3JrcyUyQ0NvbXB1dGVyJTIwVmlzaW9u" data-listing-date-sort="1743462000000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="36">
-<a href="../projects/gat-fer/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Graph-Attention Network for Cross-Domain Facial Expression Recognition
-</h5>
-<div class="card-text listing-description delink">
-<p>ResNet-50 and Graph Attention Networks with adversarial domain alignment, achieving 74% mean accuracy across six datasets.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Apr 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="TXVsdGktQWdlbnQlMjBBSSUyQ0xMTSUyMEFnZW50cyUyQ1NvZnR3YXJlJTIwRW5naW5lZXJpbmc=" data-listing-date-sort="1740787200000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
-<a href="../projects/repoforge-ai/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-RepoForge AI: Agentic Test Generation for Public Python Repositories
-</h5>
-<div class="card-text listing-description delink">
-<p>A multi-agent system that scans public Git repositories and generates validated pytest suites using RAG over ChromaDB-indexed code with Gemini-based generation.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mar 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="TXVsdGktQWdlbnQlMjBBSSUyQ05MUCUyQ0thZ2dsZQ==" data-listing-date-sort="1738368000000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
-<a href="../projects/corporate-ethics-ai/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Corporate Ethics Automation System
-</h5>
-<div class="card-text listing-description delink">
-<p>A Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry).</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Feb 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="RGVlcCUyMExlYXJuaW5nJTJDTXVsdGltb2RhbCUyMExlYXJuaW5nJTJDQWZmZWN0aXZlJTIwQ29tcHV0aW5n" data-listing-date-sort="1735689600000" data-listing-file-modified-sort="1783936581778" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
-<a href="../projects/mpdd-depression/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Multimodal Personalized Depression Detection
-</h5>
-<div class="card-text listing-description delink">
-<p>Fusing voice, facial cues, and personal attributes to predict depression level using attention-based deep learning (MPDD Challenge @ ACM Multimedia 2025).</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Jan 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -437,7 +270,7 @@ Jan 1, 2025
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/rozaghaedi\.github\.io\/my-website\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

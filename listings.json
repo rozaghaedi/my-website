@@ -1,5 +1,31 @@
 [
   {
+    "listing": "/blog/index 2.html",
+    "items": [
+      "/blog/index.html",
+      "/blog/first-post/index.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/index 2.html",
+      "/blog/first-post/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/index 2.html",
+    "items": [
+      "/talks/first-post/index.html"
+    ]
+  },
+  {
+    "listing": "/talks/index.html",
+    "items": [
+      "/talks/first-post/index.html"
+    ]
+  },
+  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/lda-grievance/index.html",
@@ -30,15 +56,13 @@
     "items": []
   },
   {
-    "listing": "/talks/index.html",
+    "listing": "/projects/index 2.html",
     "items": [
-      "/talks/first-post/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/first-post/index.html"
+      "/projects/lda-grievance/index.html",
+      "/projects/gat-fer/index.html",
+      "/projects/repoforge-ai/index.html",
+      "/projects/corporate-ethics-ai/index.html",
+      "/projects/mpdd-depression/index.html"
     ]
   }
 ]
