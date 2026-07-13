@@ -1,27 +1,29 @@
 ---
 title: "Razieh Ghaedi"
-subtitle: "Research Associate | Deep Learning & Human-Centered AI"
+subtitle: "PhD Student | AI-Driven Forecasting for Health Equity"
 image: images/profile.jpg
+
 about:
-  template: jolla  # Different templates: jolla, trestles, solana, marquee, or broadside
+  template: trestles
   image-shape: round
   links:
     - icon: envelope-at-fill
       text: e-mail
       href: mailto:rozaghaedi90@gmail.com
+
     - icon: github
       text: Github
       href: https://github.com/rozaghaedi
+
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/rosa-ghaedi-b15329231/
+
     - icon: bookmark-star-fill
       text: Google Scholar
       href: https://scholar.google.com/citations?user=FhUWJo4AAAAJ
 ---
 
-  I am a Research Associate at the **University of Sheffield**, working on multi-agent AI systems for automated corporate ethics benchmarking and forced-labour risk assessment across global supply chains. My research combines **deep learning, multimodal learning, and human-centered AI**, with a particular focus on cross-domain facial expression recognition, affective computing, and socially responsible AI applications.
+I am a PhD student at **Cardiff University**. My research project, **“Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting,”** focuses on developing data-driven methods to support fairer and more effective preventive health screening services in Wales.
 
-I hold an **MSc in Computer Science (Distinction)** from Manchester Metropolitan University, where my dissertation on deep learning-based cross-domain facial expression recognition scored 80/100. My work has been published in venues including *Knowledge-Based Systems*, *ACML 2025*, and *IEEE Access*, and I collaborate across disciplines at the intersection of AI, operations management, and social impact.
-
-Explore my [full list of publications](https://scholar.google.com/citations?user=FhUWJo4AAAAJ) on Google Scholar.
+My research combines artificial intelligence, forecasting, fairness-aware machine learning, and simulation to identify inequalities in screening uptake and support better healthcare planning.

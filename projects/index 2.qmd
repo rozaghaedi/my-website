@@ -1,0 +1,14 @@
+---
+title: "Projects"
+description: "Selected research and applied AI projects."
+listing:
+  contents:
+    - "mpdd-depression/index.qmd"
+    - "corporate-ethics-ai/index.qmd"
+    - "repoforge-ai/index.qmd"
+    - "gat-fer/index.qmd"
+    - "lda-grievance/index.qmd"
+  type: grid
+  sort: "date desc"
+  filter-ui: true
+---

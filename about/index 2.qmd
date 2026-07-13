@@ -1,0 +1,61 @@
+---
+title: "About Me"
+---
+
+I am **Razieh Ghaedi**, a Research Associate at the **University of Sheffield** with a strong research background in deep learning, multimodal learning, and human-centered AI. My work spans data-driven models for cross-domain facial expression recognition, affective computing, and socially responsible AI applications, with peer-reviewed publications in *Knowledge-Based Systems*, *ACML 2025*, and *IEEE Access*.
+
+Before moving into research, I spent several years as a software engineer building enterprise applications, which now shapes how I approach building reliable, well-engineered AI systems rather than one-off research prototypes.
+
+## Education
+
+* **MSc in Computer Science (Distinction, GPA 80/100)**, Manchester Metropolitan University, UK — Sep 2023 to Oct 2024
+  Dissertation: *Deep Learning-Based Cross-Domain Facial Expression Recognition* (Grade: 80/100)
+  Key modules: Advanced Object-Oriented Programming, Algorithms and Data Structures, Cloud and Enterprise Development, Information Systems and Databases, Advanced Computer Networks, AI Ethics and Governance
+
+* **BSc in Information Technology Engineering** — Sep 2009 to Feb 2014
+  Key modules: Data Structures, Algorithms Design, Advanced Programming, Operating Systems, Database Design, Artificial Intelligence, Digital Electronics, Software Engineering
+
+## Research & Professional Experience
+
+**Research Associate**, University of Sheffield — 2024 to Present
+
+* Developed a multi-agent AI system for automated corporate ethics benchmarking, enabling rapid assessment of forced-labour risks across global ICT supply chains through parallel data processing and predictive analytics.
+* Applied NLP and topic modelling (LDA, BERTopic) to analyse UK Modern Slavery Act statements, evaluating grievance mechanism effectiveness through systematic text mining of corporate disclosures.
+* Designed and implemented a Decision Support System using Best-Worst Method (BWM) and Spanning Tree Enumeration (STE) for complex decision-making in supply chain management contexts.
+* Contributing to multiple interdisciplinary publications bridging AI, operations management, and social impact research.
+
+**Teaching Assistant**, rTriibe (Education Recruitment Agency), Sheffield, UK — 2025 to Present
+
+* Assisted classroom teachers across primary and secondary schools with lesson delivery, classroom management, and one-to-one pupil support.
+
+**Software Engineer**, Novin Asan Tech Mana Company, Shiraz, Iran — 2014 to 2021
+
+* Developed and maintained Java-based enterprise applications with emphasis on backend logic and relational database integration.
+* Led the migration of legacy systems to modern frameworks, improving system maintainability and user experience.
+* Collaborated with cross-functional teams to troubleshoot, deploy, and document software modules.
+
+## Technical Skills
+
+* **Programming & Scripting:** Python (Advanced), Java (Advanced), C# (Intermediate)
+* **Machine Learning & AI:** Deep Learning, Graph Neural Networks (GNNs), Transfer Learning, Domain Adaptation, Multimodal Learning, Representation Learning
+* **Data Analysis & Visualisation:** Advanced Excel, JMP, Power BI, Tableau, SQL, Statistical Analysis, Exploratory Data Analysis (EDA)
+* **Frameworks & Libraries:** PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers
+* **Databases & Cloud:** PostgreSQL, MySQL, MongoDB, AWS (EC2, S3)
+* **Tools & Development:** Git, Jupyter, LaTeX, REST APIs
+
+## Academic Service
+
+* Peer Reviewer, *Discover Artificial Intelligence* (Springer Nature) — 2025 to Present
+* Peer Reviewer, *IEEE Transactions on Consumer Electronics* — 2025 to Present
+
+## Achievements & Certifications
+
+* GRE: 328 (Verbal 158, Quantitative 170, AWA 4.0)
+* *The Art and Science of Uncertainty and the Future* (Interdisciplinary Summer School), DL4SG (Data Lab for Social Good), Cardiff University — Jul 2026
+* IEEE Computer Society Member (No. 100476059)
+
+## References
+
+* **Dr. Nashid Alam** — MSc Supervisor, Lecturer, Manchester Metropolitan University ([n.alam@mmu.ac.uk](mailto:n.alam@mmu.ac.uk))
+* **Dr. Rahim Taheri** — BSc Supervisor, Senior Lecturer, University of Portsmouth ([rahim.taheri@port.ac.uk](mailto:rahim.taheri@port.ac.uk))
+* **Dr. Amin Vafadarnikjoo** — Research Supervisor, Lecturer, University of Sheffield ([a.vafadarnikjoo@sheffield.ac.uk](mailto:a.vafadarnikjoo@sheffield.ac.uk))
