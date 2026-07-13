@@ -1,38 +1,23 @@
 ---
-title: ""
-page-layout: full
+title: "Roza Ghaedi"
+subtitle: "PhD Student | AI-Driven Forecasting for Health Equity"
+image: images/profile.jpg
+about:
+  template: jolla  # Different templates: jolla, trestles, solana, marquee, or broadside
+  image-shape: round
+  links:
+    - icon: envelope-at-fill
+      text: e-mail
+      href: mailto:rozaghaedi90@gmail.com
+    - icon: github
+      text: Github
+      href: https://github.com/rozaghaedi
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rosa-ghaedi-b15329231/
+    - icon: bookmark-star-fill
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=FhUWJo4AAAAJ
 ---
 
-::: {.home-hero}
 
-::: {.home-content}
-
-# Razieh Ghaedi
-
-
-
-My work combines forecasting, fairness-aware machine learning, and healthcare simulation to support more equitable health services.
-
-
-::: {.home-links}
-
-[Email](mailto:rozaghaedi90@gmail.com){.social-button}
-
-[GitHub](https://github.com/rozaghaedi){.social-button}
-
-[LinkedIn](https://www.linkedin.com/in/rosa-ghaedi-b15329231/){.social-button}
-
-[Google Scholar](https://scholar.google.com/citations?user=FhUWJo4AAAAJ){.social-button}
-:::
-
-
-:::
-
-::: {.home-visual}
-
-![](images/home-illustration.png){fig-alt="AI-driven health forecasting"}
-
-:::
-
-
-:::
