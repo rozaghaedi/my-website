@@ -1,9 +1,0 @@
----
-listing:
-  contents: 
-    - "first-post/*.qmd"
-  type: default # Explore more listing types; default, grid or table
-  sort: date desc
-  filter-ui: true
-link-external-newwindow: true
----

@@ -1,14 +1,4 @@
-.Rproj.user
-.Rhistory
-.RData
-.Ruserdata
-
-/.quarto/
 .httr-oauth
 .DS_Store
 .quarto
-
-**/*.quarto_ipynb
-
-.Rproj.user*
 _site/

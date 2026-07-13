@@ -1,42 +1,71 @@
 ---
-title: ""
+pagetitle: "About"
 page-layout: full
+format: html
 ---
 
-::: {.about-page}
+<section class="about-page">
 
-::: {.about-photo}
-![](../images/profile.jpg){fig-alt="Razieh Ghaedi"}
-:::
+<div class="about-shell">
+<aside class="about-side">
+<img class="about-portrait" src="../images/profile.jpg" alt="Portrait of Razieh Ghaedi">
 
-::: {.about-text}
+<div class="side-divider"></div>
 
-# About
+<div class="about-socials" aria-label="Social links">
+<a href="mailto:rozaghaedi90@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope-fill"></i> Email</a>
+<a href="https://github.com/rozaghaedi" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i> GitHub</a>
+<a href="https://www.linkedin.com/in/rosa-ghaedi-b15329231/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i> LinkedIn</a>
+<a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-bookmark-star-fill"></i> Scholar</a>
+</div>
 
-## PhD Student in AI-Driven Forecasting for Health Equity
+<a class="cv-button" href="../cv/Razieh_Ghaedi_CV.pdf" target="_blank" rel="noopener">
+<i class="bi bi-download"></i>
+<span>Download CV</span>
+</a>
+</aside>
 
-I am a PhD student at the **Data Lab for Social Good** at **Cardiff University**. My research project, **“Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting,”** focuses on developing data-driven methods to support fairer and more effective preventive health screening services in Wales.
+<main class="about-main">
+<section class="about-intro">
+<div class="about-heading" role="heading" aria-level="1">About</div>
 
-My research combines **artificial intelligence, forecasting, fairness-aware machine learning, and simulation** to identify inequalities in screening uptake and support better healthcare planning.
+<p class="about-subtitle">Research Associate | Deep Learning &amp; Human-Centered AI</p>
 
-I am particularly interested in building practical and transparent tools that can help health services allocate resources more fairly and improve access to preventive screening across communities in Wales.
+<p>
+I am a Research Associate at the <strong>University of Sheffield</strong>, working on multi-agent AI systems for automated corporate ethics benchmarking and forced-labour risk assessment across global supply chains. My research combines <strong>deep learning, multimodal learning, and human-centered AI</strong>, with a particular focus on cross-domain facial expression recognition, affective computing, and socially responsible AI applications.
+</p>
 
-Explore my [full list of publications](https://scholar.google.com/citations?user=FhUWJo4AAAAJ) on Google Scholar.
+<p>
+I hold an <strong>MSc in Computer Science (Distinction)</strong> from Manchester Metropolitan University, where my dissertation on deep learning-based cross-domain facial expression recognition scored 80/100. My work has been published in venues including <em>Knowledge-Based Systems</em>, <em>ACML 2025</em>, and <em>IEEE Access</em>, and I collaborate across disciplines at the intersection of AI, operations management, and social impact.
+</p>
 
-::: {.about-actions}
+<p>
+Before moving into research, I spent several years as a software engineer building enterprise applications, which now shapes how I approach building reliable, well-engineered AI systems rather than one-off research prototypes.
+</p>
 
-[Email](mailto:rozaghaedi90@gmail.com){.about-icon}
+<h3>Education</h3>
+<ul>
+<li><strong>MSc in Computer Science (Distinction, GPA 80/100)</strong>, Manchester Metropolitan University, UK — Sep 2023 to Oct 2024. Dissertation: <em>Deep Learning-Based Cross-Domain Facial Expression Recognition</em></li>
+<li><strong>BSc in Information Technology Engineering</strong> — Sep 2009 to Feb 2014</li>
+</ul>
 
-[GitHub](https://github.com/rozaghaedi){.about-icon}
+<h3>Experience</h3>
+<ul>
+<li><strong>Research Associate</strong>, University of Sheffield — 2024 to Present</li>
+<li><strong>Teaching Assistant</strong>, rTriibe (Education Recruitment Agency), Sheffield, UK — 2025 to Present</li>
+<li><strong>Software Engineer</strong>, Novin Asan Tech Mana Company, Shiraz, Iran — 2014 to 2021</li>
+</ul>
 
-[LinkedIn](https://www.linkedin.com/in/rosa-ghaedi-b15329231/){.about-icon}
+<h3>Academic Service</h3>
+<ul>
+<li>Peer Reviewer, <em>Discover Artificial Intelligence</em> (Springer Nature) — 2025 to Present</li>
+<li>Peer Reviewer, <em>IEEE Transactions on Consumer Electronics</em> — 2025 to Present</li>
+</ul>
 
-[Google Scholar](https://scholar.google.com/citations?user=FhUWJo4AAAAJ){.about-icon}
-
-[Download CV](../files/Razieh-Ghaedi-CV.pdf){.cv-button}
-
-:::
-
-:::
-
-:::
+<p class="publication-line">
+Explore my <a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" target="_blank" rel="noopener">full list of publications</a> on Google Scholar.
+</p>
+</section>
+</main>
+</div>
+</section>

@@ -2,15 +2,12 @@ project:
   type: website
 
 website:
-  title: "Roza Ghaedi"
+  title: "Home"
   open-graph: true
-  page-footer: ""
+  search: false
+  page-footer: "Made with ❤️ and Quarto"
   navbar:
-    search: true
-    left:
-      - text: Home
-        href: index.qmd
-        icon: house-door-fill
+    background: '#FAFBFD'
     right:
       - text: About
         href: about/index.qmd
@@ -18,7 +15,6 @@ website:
         href: projects/index.qmd
       - text: Publications
         menu:
-        
           - text: Journal Articles
             href: publications/journal_articles/index.qmd
           - text: Conference Papers
@@ -27,19 +23,11 @@ website:
             href: publications/book_chapters/index.qmd
           - text: Working Papers
             href: publications/working_papers/index.qmd
+      - text: Talks
+        href: talks/index.qmd
       - text: Blog
         href: blog/index.qmd
-    tools:
-      - icon: github
-        href: https://github.com/rozaghaedi
-      - icon: linkedin
-        href: https://www.linkedin.com/in/rosa-ghaedi-b15329231/
-      - icon: bookmark-star-fill
-        href: https://scholar.google.com/citations?user=FhUWJo4AAAAJ
+
 format:
   html:
-    backgroundcolor: "#FFFFFF"
-    fontcolor: "rgb(55, 58, 60)"
-    linkcolor: "#0066b2"
-    mainfont: "system-ui"
     theme: [cosmo, styles.scss]

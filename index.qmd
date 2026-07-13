@@ -1,23 +1,32 @@
 ---
-title: "Roza Ghaedi"
-subtitle: "PhD Student | AI-Driven Forecasting for Health Equity"
-image: images/profile.jpg
-about:
-  template: jolla  # Different templates: jolla, trestles, solana, marquee, or broadside
-  image-shape: round
-  links:
-    - icon: envelope-at-fill
-      text: e-mail
-      href: mailto:rozaghaedi90@gmail.com
-    - icon: github
-      text: Github
-      href: https://github.com/rozaghaedi
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/rosa-ghaedi-b15329231/
-    - icon: bookmark-star-fill
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=FhUWJo4AAAAJ
+pagetitle: "Home"
+page-layout: full
+format: html
 ---
 
+<section class="landing-page">
 
+<div class="landing-hero">
+<div class="landing-copy">
+<div class="landing-name" role="heading" aria-level="1">Razieh<br>Ghaedi</div>
+
+<p class="landing-tagline">
+I work on deep learning, multimodal learning, and human-centered AI, turning research on facial expression recognition, affective computing, and social impact applications into practical, responsible AI systems.
+</p>
+
+<div class="landing-social" aria-label="Social links">
+<a href="mailto:rozaghaedi90@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope"></i></a>
+<a href="https://github.com/rozaghaedi" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+<a href="https://www.linkedin.com/in/rosa-ghaedi-b15329231/" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-bookmark-star-fill"></i></a>
+</div>
+
+<div class="landing-links">
+<a href="about/"><i class="bi bi-person-fill"></i><span>About</span></a>
+<a href="projects/"><i class="bi bi-bar-chart-fill"></i><span>Projects</span></a>
+<a href="publications/journal_articles/"><i class="bi bi-journal-bookmark-fill"></i><span>Publications</span></a>
+</div>
+
+</div>
+</div>
+</section>

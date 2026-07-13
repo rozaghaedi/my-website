@@ -1,48 +1,315 @@
 /*-- scss:defaults --*/
 
-// Sass Variables
-// https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap');
 
 /* Colors */
-$body-bg: #FFFFFF;
-$body-color: rgb(55, 58, 60);
-$link-color: #0066b2;
-
+$body-bg: #FAFBFD;
+$body-color: #0B1E3D;
+$link-color: #1f2d4a;
+$font-color: #141414;
 
 /* Fonts */
-$font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans-serif: "Inter", "Assistant", sans-serif;
 $font-size-root: 17px;
 
+h1 {
+  font-weight: bold;
+}
 
-/* Custom Styles */
 .subtitle {
   text-align: center;
 }
 
-/* Custom button style */
-button {
-  background-color: transparent; /* No filling */
-  border: 2px solid rgb(55, 58, 60); /* Gray border */
-  color: rgb(55, 58, 60); /* Gray text */
-  padding: 5px 10px;
+h5 {
+  &:hover {
+    color: #1f2d4a;
+  }
+}
+
+/* Landing page */
+
+body.quarto-light {
+  background: #FAFBFD;
+}
+
+.quarto-title-block:empty {
+  display: none;
+}
+
+.landing-page {
+  background: #FAFBFD;
+  box-sizing: border-box;
+  min-height: calc(100svh - 72px);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding: clamp(2rem, 6vh, 4rem) clamp(2rem, 5vw, 5rem);
+  position: relative;
+  width: 100vw;
+}
+
+body:has(.landing-page) .nav-footer {
+  display: none;
+}
+
+.landing-hero {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  min-height: 0;
+  position: relative;
+}
+
+.landing-copy {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+}
+
+.landing-name {
+  color: #0B1E3D;
+  font-family: "DM Serif Display", "Fraunces", Georgia, serif;
+  font-size: clamp(3.2rem, 7vw, 6.2rem);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.05;
+  margin: 0 auto;
+}
+
+.landing-tagline {
+  color: #0B1E3D;
+  font-size: clamp(1.05rem, 1.5vw, 1.34rem);
+  line-height: 1.5;
+  margin: 1.65rem auto 0;
+  max-width: 640px;
+}
+
+.landing-links,
+.landing-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.landing-links {
+  margin-top: 2rem;
+}
+
+.landing-social {
+  gap: .65rem;
+  margin-top: 1.35rem;
+}
+
+.landing-links a,
+.landing-social a {
+  align-items: center;
+  background: #E6EEF7;
+  border: 1px solid rgba(169, 198, 232, .7);
+  border-radius: 8px;
+  color: #0B1E3D;
+  display: inline-flex;
+  font-weight: 600;
+  gap: .75rem;
   text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 5px; /* Rounded corners */
+  transition: background-color .2s ease, border-color .2s ease, color .2s ease, transform .2s ease;
 }
 
-/* Hover effect for Journal article */
-#journal-article-btn:hover {
-  border-color: #0066b2; /* Blue border on hover */
-  color: #0066b2; /* Blue text on hover */
+.landing-links a:hover,
+.landing-social a:hover {
+  background: #dce8f6;
+  border-color: #A9C6E8;
+  color: #123D78;
+  transform: translateY(-2px);
 }
 
-/* Hover effect for GitHub repo */
-#github-repo-btn:hover {
-  border-color: #00A86B; /* Green border on hover */
-  color: #00A86B; /* Green text on hover */
+.landing-links a {
+  background: rgba(250, 251, 253, .86);
+  border-color: #A9C6E8;
+  font-size: 1rem;
+  justify-content: center;
+  min-height: 54px;
+  min-width: 148px;
+  padding: .8rem 1.15rem;
+  white-space: nowrap;
 }
 
+.landing-social a {
+  background: rgba(255, 255, 255, .78);
+  border-color: rgba(18, 61, 120, .45);
+  border-radius: 6px;
+  box-shadow: none;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0;
+  width: 44px;
+}
+
+.landing-links i,
+.landing-social i {
+  color: #123D78;
+  font-size: 1.15rem;
+}
+
+/* Custom About page */
+
+.about-page {
+  background:
+    radial-gradient(circle at 82% 24%, rgba(169, 198, 232, .16), transparent 34%),
+    linear-gradient(180deg, #ffffff 0%, #FAFBFD 100%);
+  display: block !important;
+  grid-column: 1 / -1 !important;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  min-height: calc(100vh - 72px);
+  overflow: hidden;
+  position: relative;
+  width: 100vw;
+}
+
+.about-shell {
+  align-items: start;
+  box-sizing: border-box;
+  column-gap: clamp(3rem, 12vw, 5.5rem);
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: clamp(2.5rem, 6vw, 5rem);
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: clamp(3rem, 7vh, 5rem) clamp(1.5rem, 5vw, 4rem) 3.25rem;
+  position: relative;
+  z-index: 2;
+}
+
+.about-side {
+  align-items: center;
+  display: flex;
+  flex: 0 0 clamp(260px, 22vw, 320px);
+  flex-direction: column;
+  padding-top: .5rem;
+}
+
+.about-portrait {
+  border-radius: 50%;
+  box-shadow: 0 20px 46px rgba(11, 30, 61, .08);
+  display: block;
+  height: 240px;
+  object-fit: cover;
+  width: 240px;
+}
+
+.cv-button {
+  align-items: center;
+  background: #0B1E3D;
+  border-radius: 8px;
+  box-shadow: 0 14px 34px rgba(11, 30, 61, .14);
+  color: #ffffff !important;
+  display: inline-flex;
+  font-weight: 700;
+  gap: .75rem;
+  height: 54px;
+  justify-content: center;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  transition: background-color .18s ease, box-shadow .18s ease, transform .18s ease;
+  width: 240px;
+}
+
+.cv-button:hover {
+  background: #123D78;
+  box-shadow: 0 20px 42px rgba(11, 30, 61, .18);
+  transform: translateY(-2px);
+  color: #ffffff !important;
+}
+
+.side-divider {
+  background: rgba(18, 61, 120, .18);
+  height: 1px;
+  margin: 1.6rem 0;
+  width: 100%;
+}
+
+.about-socials {
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  width: 100%;
+  max-width: 240px;
+}
+
+.about-socials a {
+  align-items: center;
+  background: rgba(255, 255, 255, .72);
+  border: 1px solid rgba(18, 61, 120, .42);
+  border-radius: 6px;
+  color: #123D78;
+  display: inline-flex;
+  font-size: .9rem;
+  font-weight: 600;
+  gap: .55rem;
+  height: 42px;
+  justify-content: flex-start;
+  padding: 0 .9rem;
+  text-decoration: none;
+  transition: background-color .18s ease, color .18s ease, transform .18s ease;
+  white-space: nowrap;
+}
+
+.about-socials a:hover {
+  background: #123D78;
+  color: #ffffff;
+  transform: translateY(-1px);
+}
+
+.about-main {
+  flex: 1 1 560px;
+  min-width: 0;
+  max-width: 720px;
+}
+
+.about-heading {
+  color: #0B1E3D;
+  font-family: "DM Serif Display", "Fraunces", Georgia, serif;
+  font-size: clamp(2.4rem, 4vw, 3.4rem);
+  font-weight: 400;
+  margin: 0 0 .25rem;
+}
+
+.about-subtitle {
+  color: #3B6FB6;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 1.5rem;
+}
+
+.about-intro p {
+  line-height: 1.65;
+  margin-bottom: 1.1rem;
+}
+
+.about-intro h3 {
+  margin-top: 2rem;
+  font-family: "DM Serif Display", "Fraunces", Georgia, serif;
+  color: #0B1E3D;
+}
+
+.about-intro a {
+  color: #123D78;
+  font-weight: 600;
+}
+
+.about-intro a:hover {
+  color: #1f2d4a;
+}
+
+.publication-line {
+  margin-top: 1.5rem;
+  font-style: italic;
+}

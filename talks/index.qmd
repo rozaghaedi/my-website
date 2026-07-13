@@ -1,9 +1,7 @@
 ---
-listing:
-  contents: 
-    - "first-post/*.qmd"
-  type: default # Explore more listing types; default, grid or table
-  sort: date desc
-  filter-ui: true
-link-external-newwindow: true
+pagetitle: "Talks"
+page-layout: full
+format: html
 ---
+
+I haven't given any public talks yet — check back soon, or explore my [projects](../projects/index.qmd) and [publications](../publications/journal_articles/index.qmd) in the meantime.
