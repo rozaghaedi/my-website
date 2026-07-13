@@ -32,26 +32,25 @@ format: html
 <p class="about-subtitle">PhD Researcher, Cardiff University | AI for Health Equity</p>
 
 <p>
-I am a PhD Researcher at <strong>Cardiff University</strong> (Cardiff Business School, WGSSS-funded), working on <strong>"Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting and Resource Optimisation for Underserved Communities"</strong>, supervised by Prof. Harper. My research combines spatio-temporal graph neural networks, fairness-aware machine learning, discrete-event simulation, and qualitative social science to help health services plan more equitably.
+I am a PhD Researcher at Cardiff University (Cardiff Business School, CARBS-funded), working on "Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting and Resource Optimisation for Underserved Communities", supervised by Prof. Bahman Rostami-Tabar and Prof. Paul Harper. My research combines spatio-temporal graph neural networks, fairness-aware machine learning, discrete-event simulation, and qualitative social science to help health services plan more equitably.
 </p>
 
 
 
 <p>
-Before starting this PhD, I earned an <strong>MSc in Computer Science (Distinction)</strong> from Manchester Metropolitan University, with a dissertation on deep learning-based cross-domain facial expression recognition. My earlier work on multimodal learning, affective computing, and human-centered AI (published in <em>Knowledge-Based Systems</em>, <em>ACML 2025</em>, and <em>IEEE Access</em>) now feeds into how I approach building fair, well-calibrated, and socially responsible AI systems for healthcare.
+Before starting this PhD, I earned an MSc in Computer Science (Distinction) from Manchester Metropolitan University, with a dissertation on "deep learning-based cross-domain facial expression recognition". My earlier work on multimodal learning, affective computing, and human-centered AI now feeds into how I approach building fair, well-calibrated, and socially responsible AI systems for healthcare.
 </p>
 
 <h3>Education</h3>
 <ul>
-<li><strong>PhD in Management (AI for Health Equity)</strong>, Cardiff University, Cardiff Business School — WGSSS/ESRC-funded, supervised by Prof. Harper</li>
+<li><strong>PhD in Management (AI for Health Equity)</strong>, Cardiff University, Cardiff Business School — CARBS-funded, supervised by Prof. Bahman Rostami-Tabar and Prof. Paul Harper</li>
 <li><strong>MSc in Computer Science (Distinction, GPA 80/100)</strong>, Manchester Metropolitan University, UK — Sep 2023 to Oct 2024. Dissertation: <em>Deep Learning-Based Cross-Domain Facial Expression Recognition</em></li>
 <li><strong>BSc in Information Technology Engineering</strong> — Sep 2009 to Feb 2014</li>
 </ul>
 
 <h3>Experience</h3>
 <ul>
-<li><strong>Research Associate</strong>, University of Sheffield — 2024 to Present</li>
-<li><strong>Teaching Assistant</strong>, rTriibe (Education Recruitment Agency), Sheffield, UK — 2025 to Present</li>
+<li><strong>Research Associate</strong>, University of Sheffield — 2024 to 2026</li>
 <li><strong>Software Engineer</strong>, Novin Asan Tech Mana Company, Shiraz, Iran — 2014 to 2021</li>
 </ul>
 
