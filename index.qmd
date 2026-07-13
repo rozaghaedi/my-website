@@ -1,32 +1,38 @@
 ---
-title: "Roza Ghaedi"
-subtitle: "PhD Student | AI-Driven Forecasting for Health Equity"
-image: images/profile.jpg
-
-
-
-
-about:
-  template: trestles
-  image-shape: round
-  links:
-    - icon: envelope-at-fill
-      text: e-mail
-      href: mailto:rozaghaedi90@gmail.com
-
-    - icon: github
-      text: Github
-      href: https://github.com/rozaghaedi
-
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/rosa-ghaedi-b15329231/
-
-    - icon: bookmark-star-fill
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=FhUWJo4AAAAJ
+title: ""
+page-layout: full
 ---
 
- I am a PhD student at the Data Lab for Social Good research group at Cardiff University. My research project, **“Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting,”** focuses on developing data-driven methods to support fairer and more effective preventive health screening services in Wales.
+::: {.home-hero}
 
-My research combines AI, forecasting, fairness-aware ML, and simulation to identify inequalities in screening uptake and support better healthcare planning.
+::: {.home-content}
+
+# Razieh Ghaedi
+
+
+
+My work combines forecasting, fairness-aware machine learning, and healthcare simulation to support more equitable health services.
+
+
+::: {.home-links}
+
+[Email](mailto:rozaghaedi90@gmail.com){.social-button}
+
+[GitHub](https://github.com/rozaghaedi){.social-button}
+
+[LinkedIn](https://www.linkedin.com/in/rosa-ghaedi-b15329231/){.social-button}
+
+[Google Scholar](https://scholar.google.com/citations?user=FhUWJo4AAAAJ){.social-button}
+:::
+
+
+:::
+
+::: {.home-visual}
+
+![](images/home-illustration.png){fig-alt="AI-driven health forecasting"}
+
+:::
+
+
+:::
