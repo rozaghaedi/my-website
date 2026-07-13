@@ -5,6 +5,7 @@ format: html
 ---
 
 <section class="landing-page">
+<img class="landing-chart-bg" src="images/home-chart-bg.svg" alt="">
 
 <div class="landing-hero">
 <div class="landing-copy">
@@ -21,12 +22,11 @@ I work on deep learning, multimodal learning, and human-centered AI, turning res
 <a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-bookmark-star-fill"></i></a>
 </div>
 
-<div class="landing-links">
-<a href="about/"><i class="bi bi-person-fill"></i><span>About</span></a>
-<a href="projects/"><i class="bi bi-bar-chart-fill"></i><span>Projects</span></a>
-<a href="publications/journal_articles/"><i class="bi bi-journal-bookmark-fill"></i><span>Publications</span></a>
 </div>
 
+<div class="landing-visual">
+<!-- بعداً تصویر خودتون رو اینجا اضافه می‌کنیم -->
 </div>
+
 </div>
 </section>

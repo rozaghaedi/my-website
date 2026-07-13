@@ -313,3 +313,142 @@ body:has(.landing-page) .nav-footer {
   margin-top: 1.5rem;
   font-style: italic;
 }
+
+/* Landing page redesign */
+
+body.quarto-light {
+  background: #FAFBFD;
+}
+
+.quarto-title-block:empty {
+  display: none;
+}
+
+.landing-page {
+  background: #FAFBFD;
+  box-sizing: border-box;
+  min-height: calc(100svh - 72px);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  overflow: hidden;
+  padding: clamp(2rem, 6vh, 4rem) clamp(2rem, 5vw, 5rem);
+  position: relative;
+  width: 100vw;
+}
+
+body:has(.landing-page) .nav-footer {
+  display: none;
+}
+
+.landing-chart-bg {
+  display: block;
+  height: 100%;
+  inset: 0;
+  max-width: none;
+  object-fit: cover;
+  object-position: center bottom;
+  opacity: .85;
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+.landing-hero {
+  align-items: center;
+  display: grid;
+  gap: clamp(1.5rem, 3vw, 4rem);
+  grid-template-columns: minmax(360px, .8fr) minmax(280px, 1.2fr);
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1780px;
+  min-height: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.landing-copy {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.landing-name {
+  color: #0B1E3D;
+  font-family: "DM Serif Display", "Fraunces", Georgia, serif;
+  font-size: clamp(3.2rem, 6vw, 5.6rem);
+  font-weight: 400;
+  line-height: 1.05;
+  margin: 0;
+}
+
+.landing-tagline {
+  color: #0B1E3D;
+  font-size: clamp(1.05rem, 1.5vw, 1.34rem);
+  line-height: 1.5;
+  margin: 1.65rem 0 0;
+  max-width: 560px;
+}
+
+.landing-links,
+.landing-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 1.35rem;
+}
+
+.landing-links a,
+.landing-social a {
+  align-items: center;
+  background: #E6EEF7;
+  border: 1px solid rgba(169, 198, 232, .7);
+  border-radius: 8px;
+  color: #0B1E3D;
+  display: inline-flex;
+  font-weight: 600;
+  gap: .75rem;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.landing-links a:hover,
+.landing-social a:hover {
+  background: #dce8f6;
+  border-color: #A9C6E8;
+  color: #123D78;
+  transform: translateY(-2px);
+}
+
+.landing-links a {
+  font-size: 1rem;
+  justify-content: center;
+  min-height: 54px;
+  min-width: 148px;
+  padding: .8rem 1.15rem;
+}
+
+.landing-social a {
+  border-radius: 6px;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0;
+  width: 44px;
+}
+
+.landing-links i,
+.landing-social i {
+  color: #123D78;
+  font-size: 1.15rem;
+}
+
+.landing-visual {
+  align-self: center;
+  justify-self: center;
+  min-height: 320px;
+  position: relative;
+  width: 100%;
+}
