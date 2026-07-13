@@ -170,58 +170,16 @@
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
-    "title": "About Me",
+    "title": "About",
     "section": "",
-    "text": "I am Razieh Ghaedi, a Research Associate at the University of Sheffield with a strong research background in deep learning, multimodal learning, and human-centered AI. My work spans data-driven models for cross-domain facial expression recognition, affective computing, and socially responsible AI applications, with peer-reviewed publications in Knowledge-Based Systems, ACML 2025, and IEEE Access.\nBefore moving into research, I spent several years as a software engineer building enterprise applications, which now shapes how I approach building reliable, well-engineered AI systems rather than one-off research prototypes."
+    "text": "I am a PhD student at the Data Lab for Social Good at Cardiff University. My research project, “Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting,” focuses on developing data-driven methods to support fairer and more effective preventive health screening services in Wales.\nMy research combines artificial intelligence, forecasting, fairness-aware machine learning, and simulation to identify inequalities in screening uptake and support better healthcare planning.\nI am particularly interested in building practical and transparent tools that can help health services allocate resources more fairly and improve access to preventive screening across communities in Wales.\nExplore my full list of publications on Google Scholar.\n\nEmail\nGitHub\nLinkedIn\nGoogle Scholar\nDownload CV"
   },
   {
-    "objectID": "about/index.html#education",
-    "href": "about/index.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\nMSc in Computer Science (Distinction, GPA 80/100), Manchester Metropolitan University, UK — Sep 2023 to Oct 2024 Dissertation: Deep Learning-Based Cross-Domain Facial Expression Recognition (Grade: 80/100) Key modules: Advanced Object-Oriented Programming, Algorithms and Data Structures, Cloud and Enterprise Development, Information Systems and Databases, Advanced Computer Networks, AI Ethics and Governance\nBSc in Information Technology Engineering — Sep 2009 to Feb 2014 Key modules: Data Structures, Algorithms Design, Advanced Programming, Operating Systems, Database Design, Artificial Intelligence, Digital Electronics, Software Engineering"
-  },
-  {
-    "objectID": "about/index.html#research-professional-experience",
-    "href": "about/index.html#research-professional-experience",
-    "title": "About Me",
-    "section": "Research & Professional Experience",
-    "text": "Research & Professional Experience\nResearch Associate, University of Sheffield — 2024 to Present\n\nDeveloped a multi-agent AI system for automated corporate ethics benchmarking, enabling rapid assessment of forced-labour risks across global ICT supply chains through parallel data processing and predictive analytics.\nApplied NLP and topic modelling (LDA, BERTopic) to analyse UK Modern Slavery Act statements, evaluating grievance mechanism effectiveness through systematic text mining of corporate disclosures.\nDesigned and implemented a Decision Support System using Best-Worst Method (BWM) and Spanning Tree Enumeration (STE) for complex decision-making in supply chain management contexts.\nContributing to multiple interdisciplinary publications bridging AI, operations management, and social impact research.\n\nTeaching Assistant, rTriibe (Education Recruitment Agency), Sheffield, UK — 2025 to Present\n\nAssisted classroom teachers across primary and secondary schools with lesson delivery, classroom management, and one-to-one pupil support.\n\nSoftware Engineer, Novin Asan Tech Mana Company, Shiraz, Iran — 2014 to 2021\n\nDeveloped and maintained Java-based enterprise applications with emphasis on backend logic and relational database integration.\nLed the migration of legacy systems to modern frameworks, improving system maintainability and user experience.\nCollaborated with cross-functional teams to troubleshoot, deploy, and document software modules."
-  },
-  {
-    "objectID": "about/index.html#technical-skills",
-    "href": "about/index.html#technical-skills",
-    "title": "About Me",
-    "section": "Technical Skills",
-    "text": "Technical Skills\n\nProgramming & Scripting: Python (Advanced), Java (Advanced), C# (Intermediate)\nMachine Learning & AI: Deep Learning, Graph Neural Networks (GNNs), Transfer Learning, Domain Adaptation, Multimodal Learning, Representation Learning\nData Analysis & Visualisation: Advanced Excel, JMP, Power BI, Tableau, SQL, Statistical Analysis, Exploratory Data Analysis (EDA)\nFrameworks & Libraries: PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers\nDatabases & Cloud: PostgreSQL, MySQL, MongoDB, AWS (EC2, S3)\nTools & Development: Git, Jupyter, LaTeX, REST APIs"
-  },
-  {
-    "objectID": "about/index.html#academic-service",
-    "href": "about/index.html#academic-service",
-    "title": "About Me",
-    "section": "Academic Service",
-    "text": "Academic Service\n\nPeer Reviewer, Discover Artificial Intelligence (Springer Nature) — 2025 to Present\nPeer Reviewer, IEEE Transactions on Consumer Electronics — 2025 to Present"
-  },
-  {
-    "objectID": "about/index.html#achievements-certifications",
-    "href": "about/index.html#achievements-certifications",
-    "title": "About Me",
-    "section": "Achievements & Certifications",
-    "text": "Achievements & Certifications\n\nGRE: 328 (Verbal 158, Quantitative 170, AWA 4.0)\nThe Art and Science of Uncertainty and the Future (Interdisciplinary Summer School), DL4SG (Data Lab for Social Good), Cardiff University — Jul 2026\nIEEE Computer Society Member (No. 100476059)"
-  },
-  {
-    "objectID": "about/index.html#references",
-    "href": "about/index.html#references",
-    "title": "About Me",
-    "section": "References",
-    "text": "References\n\nDr. Nashid Alam — MSc Supervisor, Lecturer, Manchester Metropolitan University (n.alam@mmu.ac.uk)\nDr. Rahim Taheri — BSc Supervisor, Senior Lecturer, University of Portsmouth (rahim.taheri@port.ac.uk)\nDr. Amin Vafadarnikjoo — Research Supervisor, Lecturer, University of Sheffield (a.vafadarnikjoo@sheffield.ac.uk)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Roza Ghaedi",
+    "objectID": "about/index.html#phd-student-in-ai-driven-forecasting-for-health-equity",
+    "href": "about/index.html#phd-student-in-ai-driven-forecasting-for-health-equity",
+    "title": "About",
     "section": "",
-    "text": "I am a PhD student at the Data Lab for Social Good research group at Cardiff University. My research project, “Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting,” focuses on developing data-driven methods to support fairer and more effective preventive health screening services in Wales.\nMy research combines AI, forecasting, fairness-aware ML, and simulation to identify inequalities in screening uptake and support better healthcare planning."
+    "text": "I am a PhD student at the Data Lab for Social Good at Cardiff University. My research project, “Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting,” focuses on developing data-driven methods to support fairer and more effective preventive health screening services in Wales.\nMy research combines artificial intelligence, forecasting, fairness-aware machine learning, and simulation to identify inequalities in screening uptake and support better healthcare planning.\nI am particularly interested in building practical and transparent tools that can help health services allocate resources more fairly and improve access to preventive screening across communities in Wales.\nExplore my full list of publications on Google Scholar.\n\nEmail\nGitHub\nLinkedIn\nGoogle Scholar\nDownload CV"
   },
   {
     "objectID": "blog/first-post/index.html",
