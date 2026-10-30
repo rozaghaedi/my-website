@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8">
+<style>
+html,body{margin:0;width:1584px;height:396px;overflow:hidden}
+body{background:
+ radial-gradient(circle at 72% 30%, rgba(59,111,182,.45), transparent 42%),
+ radial-gradient(circle at 18% 95%, rgba(124,92,214,.25), transparent 40%),
+ linear-gradient(160deg,#0B1E3D 0%,#0a1830 60%,#08142a 100%);font-family:Inter,Helvetica,Arial,sans-serif}
+canvas{position:absolute;inset:0}
+.txt{position:absolute;right:90px;top:50%;transform:translateY(-50%);text-align:right;color:#fff}
+.t1{font-family:Georgia,"DM Serif Display",serif;font-size:46px;letter-spacing:.3px}
+.t2{margin-top:14px;font-size:21px;color:#A9C6E8;letter-spacing:.4px}
+.bar{display:inline-block;width:56px;height:3px;background:#f0a064;margin:22px 0 0;border-radius:2px}
+.ring{position:absolute;border-radius:50%}
+</style></head><body>
+<canvas id="c" width="1584" height="396"></canvas>
+<div class="ring" style="width:130px;height:130px;left:560px;top:-40px;border:3px solid rgba(170,140,255,.5);box-shadow:0 0 24px rgba(170,140,255,.3)"></div>
+<div class="ring" style="width:90px;height:90px;left:1010px;top:300px;border:3px solid rgba(240,160,100,.6);box-shadow:0 0 20px rgba(240,160,100,.3)"></div>
+<div class="txt">
+<div class="t1">AI for Health Equity</div>
+<div class="t2">PhD Researcher · Cardiff University</div>
+</div>
+<script>
+var c=document.getElementById('c').getContext('2d'),W=1584,H=396,s=7,pts=[];
+function r(){s=(s*9301+49297)%233280;return s/233280}
+for(var i=0;i<95;i++)pts.push({x:r()*W,y:r()*H,r:1.4+r()*2.4});
+for(var a=0;a<pts.length;a++)for(var b=a+1;b<pts.length;b++){var p=pts[a],q=pts[b],d=Math.hypot(p.x-q.x,p.y-q.y);if(d<135){c.strokeStyle='rgba(143,180,230,'+(0.32*(1-d/135))+')';c.lineWidth=1;c.beginPath();c.moveTo(p.x,p.y);c.lineTo(q.x,q.y);c.stroke()}}
+pts.forEach(function(p,i){var fade=p.x>980?0.35:1;c.fillStyle=i%7==0?'rgba(240,160,100,'+(.9*fade)+')':'rgba(169,198,232,'+(.75*fade)+')';c.beginPath();c.arc(p.x,p.y,p.r,0,6.283);c.fill()});
+</script></body></html>
