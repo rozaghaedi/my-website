@@ -150,11 +150,11 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
         if (p.y < 0 || p.y > H) p.vy *= -1;
         for (var b = a + 1; b < pts.length; b++) {
           var q = pts[b], dx = p.x - q.x, dy = p.y - q.y, d = dx * dx + dy * dy;
-          if (d < 16000) { ctx.strokeStyle = 'rgba(59,111,182,' + (0.22 * (1 - d / 16000)) + ')'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke(); }
+          if (d < 16000) { ctx.strokeStyle = 'rgba(143,180,230,' + (0.28 * (1 - d / 16000)) + ')'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke(); }
         }
         var mx = p.x - mouse.x, my = p.y - mouse.y, md = mx * mx + my * my;
-        if (md < 30000) { ctx.strokeStyle = 'rgba(18,61,120,' + (0.35 * (1 - md / 30000)) + ')'; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke(); }
-        ctx.fillStyle = a % 7 === 0 ? 'rgba(232,148,90,.75)' : 'rgba(59,111,182,.55)';
+        if (md < 30000) { ctx.strokeStyle = 'rgba(190,215,245,' + (0.45 * (1 - md / 30000)) + ')'; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke(); }
+        ctx.fillStyle = a % 7 === 0 ? 'rgba(240,160,100,.9)' : 'rgba(169,198,232,.75)';
         ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283); ctx.fill();
       }
       requestAnimationFrame(draw);

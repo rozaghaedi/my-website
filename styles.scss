@@ -882,3 +882,63 @@ a.home-badge:hover { color: #123D78; }
 .home-contact-buttons { margin-top: 2.2rem; }
 .about-socials { display: flex !important; flex-direction: column; }
 .about-socials a { width: 100%; }
+
+/* Dark navy hero */
+
+body:has(.home-hero) .navbar {
+  background: #0B1E3D !important;
+  border-bottom: 1px solid rgba(169, 198, 232, .12);
+}
+body:has(.home-hero) .navbar .navbar-brand,
+body:has(.home-hero) .navbar .nav-link,
+body:has(.home-hero) .navbar .navbar-title { color: #dfe8f5 !important; }
+body:has(.home-hero) .navbar .nav-link:hover { color: #ffffff !important; }
+body:has(.home-hero) .navbar-toggler-icon { filter: invert(1); }
+
+.home-hero {
+  background:
+    radial-gradient(circle at 75% 40%, rgba(59, 111, 182, .35), transparent 45%),
+    radial-gradient(circle at 10% 90%, rgba(124, 92, 214, .18), transparent 40%),
+    linear-gradient(160deg, #0B1E3D 0%, #0a1830 60%, #08142a 100%);
+}
+
+.home-hello { color: #8fb4e6; }
+.home-name { color: #ffffff; }
+.home-roles { color: #A9C6E8; }
+.home-caret { background: #f0a064; }
+.home-tagline { color: #c3d1e6; }
+
+.home-social a {
+  background: rgba(255, 255, 255, .06);
+  border-color: rgba(169, 198, 232, .35);
+  color: #dfe8f5;
+}
+.home-social a:hover { background: #A9C6E8; border-color: #A9C6E8; color: #0B1E3D; }
+
+.home-hero .home-btn {
+  background: transparent;
+  border-color: rgba(223, 232, 245, .7);
+  color: #ffffff !important;
+}
+.home-hero .home-btn:hover { background: rgba(255, 255, 255, .1); }
+.home-hero .home-btn-primary {
+  background: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .3);
+  color: #0B1E3D !important;
+}
+.home-hero .home-btn-primary:hover { background: #E6EEF7; }
+
+.home-photo-ring { border-color: rgba(169, 198, 232, .5); }
+.home-photo { border-color: rgba(255, 255, 255, .95); box-shadow: 0 30px 70px rgba(0, 0, 0, .45); }
+
+.home-code {
+  background: rgba(5, 14, 30, .88);
+  border-color: rgba(143, 180, 230, .3);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, .45), 0 0 40px rgba(59, 111, 182, .25);
+}
+
+.home-orb-1 { border-color: rgba(170, 140, 255, .6); box-shadow: 0 0 24px rgba(170, 140, 255, .35), inset 0 0 0 14px rgba(170, 140, 255, .08); }
+.home-orb-2 { border-color: rgba(240, 160, 100, .65); box-shadow: 0 0 24px rgba(240, 160, 100, .3); }
+.home-orb-3 { background: radial-gradient(circle, rgba(143, 180, 230, .6), transparent 70%); }
+body:has(.home-hero) #quarto-document-content { margin-top: 0; }
