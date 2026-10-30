@@ -8,7 +8,7 @@ format: html
 
 <div class="about-shell">
 <aside class="about-side">
-<img class="about-portrait" src="../images/profile.jpg" alt="Portrait of Razieh Ghaedi">
+<img class="about-portrait" src="../images/profile.jpg" alt="Portrait of Roza Ghaedi">
 
 <div class="side-divider"></div>
 
