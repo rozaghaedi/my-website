@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-81acad9b36b3811f398523bc57262aa6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-990e9b432be3183533edb48014062530.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -116,9 +116,9 @@ window.Quarto = {
 
 <meta property="og:title" content="Roza Ghaedi">
 <meta property="og:description" content="">
-<meta property="og:image" content="images/home-chart-bg.svg">
+<meta property="og:image" content="images/profile.jpg">
 <meta property="og:site_name" content="Home">
-<meta property="og:image:alt" content="">
+<meta property="og:image:alt" content="Portrait of Roza Ghaedi">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -197,7 +197,17 @@ window.Quarto = {
 
 
 <section class="home-hero">
-<p><img class="landing-chart-bg" src="images/home-chart-bg.svg" alt=""></p>
+<canvas class="home-net" aria-hidden="true">
+</canvas>
+<div class="home-orb home-orb-1" aria-hidden="true">
+
+</div>
+<div class="home-orb home-orb-2" aria-hidden="true">
+
+</div>
+<div class="home-orb home-orb-3" aria-hidden="true">
+
+</div>
 <div class="home-hero-inner">
 <div class="home-copy">
 <p class="home-hello">
@@ -220,6 +230,12 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
 </div>
 </div>
 <div class="home-photo-wrap">
+<div class="home-code" aria-hidden="true">
+<div class="home-code-bar">
+<span></span><span></span><span></span><em>forecast_screening.py</em>
+</div>
+<pre class="home-code-body"></pre>
+</div>
 <div class="home-photo-ring">
 
 </div>
@@ -230,7 +246,7 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
 </div>
 </div>
 </section>
-<section class="home-section home-facts-band">
+<section class="home-section home-facts-band home-reveal">
 <div class="home-facts">
 <div class="home-fact">
 <span class="home-num" data-count="7">7</span><span class="home-plus">+</span>
@@ -252,7 +268,7 @@ Academic degrees
 </div>
 </div>
 </section>
-<section class="home-section">
+<section class="home-section home-reveal">
 <p class="home-eyebrow">
 Research
 </p>
@@ -340,7 +356,7 @@ Venue / status
 <p><a href="./publications/journal_articles/index.html">All publications <i class="bi bi-arrow-right"></i></a> <a href="./projects/index.html">See my projects <i class="bi bi-arrow-right"></i></a></p>
 </div>
 </section>
-<section class="home-section home-contact">
+<section class="home-section home-contact home-reveal">
 <h2 class="home-h2 anchored">
 Get in Touch
 </h2>
@@ -375,6 +391,96 @@ I’m always happy to talk about research collaborations in AI for health, forec
     });
   }, { threshold: .5 });
   nums.forEach(function (n) { n.textContent = '0'; io.observe(n); });
+})();
+</script>
+<script>
+(function () {
+  var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Moving graph network behind the hero */
+  var cv = document.querySelector('.home-net');
+  if (cv && !still) {
+    var ctx = cv.getContext('2d'), W, H, dpr = Math.min(window.devicePixelRatio || 1, 2), pts = [], mouse = {x: -999, y: -999};
+    function size() {
+      W = cv.clientWidth; H = cv.clientHeight;
+      cv.width = W * dpr; cv.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var n = Math.round(Math.min(90, W * H / 14000));
+      pts = [];
+      for (var k = 0; k < n; k++) pts.push({x: Math.random() * W, y: Math.random() * H, vx: (Math.random() - .5) * .45, vy: (Math.random() - .5) * .45, r: 1.5 + Math.random() * 2.2});
+    }
+    size(); window.addEventListener('resize', size);
+    cv.parentElement.addEventListener('mousemove', function (e) { var b = cv.getBoundingClientRect(); mouse.x = e.clientX - b.left; mouse.y = e.clientY - b.top; });
+    cv.parentElement.addEventListener('mouseleave', function () { mouse.x = mouse.y = -999; });
+    (function draw() {
+      ctx.clearRect(0, 0, W, H);
+      for (var a = 0; a < pts.length; a++) {
+        var p = pts[a];
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < 0 || p.x > W) p.vx *= -1;
+        if (p.y < 0 || p.y > H) p.vy *= -1;
+        for (var b = a + 1; b < pts.length; b++) {
+          var q = pts[b], dx = p.x - q.x, dy = p.y - q.y, d = dx * dx + dy * dy;
+          if (d < 16000) { ctx.strokeStyle = 'rgba(59,111,182,' + (0.22 * (1 - d / 16000)) + ')'; ctx.lineWidth = 1; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(q.x, q.y); ctx.stroke(); }
+        }
+        var mx = p.x - mouse.x, my = p.y - mouse.y, md = mx * mx + my * my;
+        if (md < 30000) { ctx.strokeStyle = 'rgba(18,61,120,' + (0.35 * (1 - md / 30000)) + ')'; ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke(); }
+        ctx.fillStyle = a % 7 === 0 ? 'rgba(232,148,90,.75)' : 'rgba(59,111,182,.55)';
+        ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283); ctx.fill();
+      }
+      requestAnimationFrame(draw);
+    })();
+  }
+
+  /* Live-typing code panel behind the photo */
+  var code = document.querySelector('.home-code-body');
+  if (code) {
+    var src = [
+      'import torch',
+      'from torch_geometric.nn import GATConv',
+      '',
+      'class ScreeningForecaster(torch.nn.Module):',
+      '    """Spatio-temporal GNN for uptake"""',
+      '    def __init__(self, f_in, hidden=64):',
+      '        super().__init__()',
+      '        self.gat = GATConv(f_in, hidden, heads=4)',
+      '        self.gru = torch.nn.GRU(hidden*4, hidden)',
+      '        self.head = torch.nn.Linear(hidden, 1)',
+      '',
+      '    def forward(self, x, edge_index):',
+      '        h = self.gat(x, edge_index).relu()',
+      '        h, _ = self.gru(h)',
+      '        return self.head(h)',
+      '',
+      '# fairness check across deprivation groups',
+      'for group in wimd_quintiles:',
+      '    gap = mae(y[group], y_hat[group]) - mae_all',
+      '    log(f"{group}: gap={gap:.3f}")',
+      '',
+      'sim = DiscreteEventSim(clinics, capacity)',
+      'plan = sim.optimise(forecast, equity=True)',
+      '>>> uptake gap reduced by 18.4%'
+    ].join('\n');
+    if (still) { code.textContent = src; }
+    else {
+      var c = 0;
+      (function type() {
+        c++;
+        code.textContent = src.slice(0, c);
+        code.scrollTop = code.scrollHeight;
+        if (c >= src.length) { setTimeout(function () { c = 0; type(); }, 2500); return; }
+        setTimeout(type, src[c] === '\n' ? 140 : 22 + Math.random() * 30);
+      })();
+    }
+  }
+
+  /* Reveal sections as you scroll */
+  var rev = document.querySelectorAll('.home-reveal, #home-pubs tbody tr');
+  if ('IntersectionObserver' in window && !still) {
+    var ro = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); ro.unobserve(e.target); } });
+    }, { threshold: .12 });
+    rev.forEach(function (el, i) { el.classList.add('will-reveal'); el.style.transitionDelay = (el.tagName === 'TR' ? (i % 5) * 0.08 : 0) + 's'; ro.observe(el); });
+  }
 })();
 </script>
 
