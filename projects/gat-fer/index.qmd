@@ -10,3 +10,9 @@ Integrated ResNet-50 and Graph Attention Networks with adversarial domain alignm
 This work was presented at **ACML 2025**.
 
 [View code on GitHub](https://github.com/rozaghaedi/GAT-ADA-CD-FER)
+
+## Poster
+
+[![ACML 2025 poster: GAT-ADA](../../files/ACML2025_GAT-ADA_poster.jpg){width=100% fig-alt="ACML 2025 poster for GAT-ADA"}](../../files/ACML2025_GAT-ADA_poster.pdf)
+
+[Download the poster (PDF)](../../files/ACML2025_GAT-ADA_poster.pdf){target="_blank"}
