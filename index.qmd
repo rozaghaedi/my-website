@@ -28,7 +28,7 @@ listing:
 <p class="home-hello">Hello, I'm</p>
 <div class="home-name" role="heading" aria-level="1">Roza Ghaedi</div>
 
-<p class="home-roles"><span class="home-typed" data-roles="PhD Researcher at Cardiff University|AI for Health Equity|Machine Learning Researcher|Graph Neural Networks & Forecasting|Former Software Engineer">PhD Researcher at Cardiff University</span><span class="home-caret" aria-hidden="true"></span></p>
+<p class="home-roles"><span class="home-typed" data-roles="PhD Researcher at Cardiff University|AI for Health Equity">PhD Researcher at Cardiff University</span><span class="home-caret" aria-hidden="true"></span></p>
 
 <p class="home-tagline">
 I work on AI-driven forecasting and fairness-aware machine learning to reduce health screening inequalities, combining graph neural networks, discrete-event simulation, and qualitative research to help build more equitable public health systems.
