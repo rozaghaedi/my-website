@@ -60,7 +60,6 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
 <div class="home-fact"><span class="home-num" data-count="7">7</span><span class="home-plus">+</span><p>Papers &amp; preprints</p></div>
 <div class="home-fact"><span class="home-num" data-count="5">5</span><p>Research projects</p></div>
 <div class="home-fact"><span class="home-num" data-count="3">3</span><p>Academic degrees</p></div>
-<div class="home-fact"><span class="home-num" data-count="7">7</span><span class="home-plus">+</span><p>Years in software engineering</p></div>
 </div>
 </section>
 
