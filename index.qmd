@@ -78,10 +78,6 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
 ::: {#home-pubs}
 :::
 
-<div class="home-more">
-<a href="publications/journal_articles/index.qmd">All publications <i class="bi bi-arrow-right"></i></a>
-<a href="projects/index.qmd">See my projects <i class="bi bi-arrow-right"></i></a>
-</div>
 </section>
 
 <section class="home-section home-contact home-reveal">
