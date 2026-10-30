@@ -84,6 +84,13 @@
     "text": "Integrated ResNet-50 and Graph Attention Networks with adversarial domain alignment (MMD, CORAL, GRL). Achieved 74% mean accuracy across six datasets: RAF-DB, FER2013, CK+, JAFFE, ExpW, and SFEW2.0.\nThis work was presented at ACML 2025.\nView code on GitHub"
   },
   {
+    "objectID": "projects/gat-fer/index.html#poster",
+    "href": "projects/gat-fer/index.html#poster",
+    "title": "Graph-Attention Network for Cross-Domain Facial Expression Recognition",
+    "section": "Poster",
+    "text": "Poster\n\n\n\nACML 2025 poster: GAT-ADA\n\n\nDownload the poster (PDF)"
+  },
+  {
     "objectID": "publications/conference_papers/index.html",
     "href": "publications/conference_papers/index.html",
     "title": "Conference Papers",
