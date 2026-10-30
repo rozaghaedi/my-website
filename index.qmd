@@ -204,7 +204,7 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
   }
 
   /* Reveal sections as you scroll */
-  var rev = document.querySelectorAll('.home-reveal, #home-pubs tbody tr');
+  var rev = document.querySelectorAll('.home-reveal, #listing-home-pubs tbody tr');
   if ('IntersectionObserver' in window && !still) {
     var ro = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); ro.unobserve(e.target); } });

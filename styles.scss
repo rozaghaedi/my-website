@@ -726,9 +726,9 @@ body:has(.home-hero) .nav-footer { display: none; }
 .home-plus { color: #A9C6E8; }
 .home-fact p { color: #c9d8ee; margin: .4rem 0 0; }
 
-#home-pubs table { background: #fff; border-radius: 12px; overflow: hidden; }
-#home-pubs td, #home-pubs th { padding: .9rem 1rem; vertical-align: top; }
-#home-pubs a { color: #123D78; font-weight: 600; text-decoration: none; }
+#listing-home-pubs table { background: #fff; border-radius: 12px; overflow: hidden; }
+#listing-home-pubs td, #listing-home-pubs th { padding: .9rem 1rem; vertical-align: top; }
+#listing-home-pubs a { color: #123D78; font-weight: 600; text-decoration: none; }
 
 .home-more {
   display: flex;
@@ -753,12 +753,12 @@ body:has(.home-hero) .nav-footer { display: none; }
 }
 
 @media (max-width: 640px) {
-  #home-pubs thead { display: none; }
-  #home-pubs tr, #home-pubs td { display: block; width: 100%; }
-  #home-pubs tr { border-bottom: 1px solid #e3e8f0; padding: .6rem 0; }
-  #home-pubs td { border: 0; padding: .15rem .9rem; }
-  #home-pubs td:first-child { color: #3B6FB6; font-weight: 700; font-size: .85rem; }
-  #home-pubs td:last-child { color: #4a5872; font-size: .9rem; }
+  #listing-home-pubs thead { display: none; }
+  #listing-home-pubs tr, #listing-home-pubs td { display: block; width: 100%; }
+  #listing-home-pubs tr { border-bottom: 1px solid #e3e8f0; padding: .6rem 0; }
+  #listing-home-pubs td { border: 0; padding: .15rem .9rem; }
+  #listing-home-pubs td:first-child { color: #3B6FB6; font-weight: 700; font-size: .85rem; }
+  #listing-home-pubs td:last-child { color: #4a5872; font-size: .9rem; }
 }
 
 /* Motion layer */
@@ -783,7 +783,7 @@ body:has(.home-hero) .nav-footer { display: none; }
   animation: home-float 9s ease-in-out infinite;
   border: 3px solid rgba(124, 92, 214, .45);
   box-shadow: inset 0 0 0 14px rgba(124, 92, 214, .06);
-  height: 90px; left: 1.5%; top: 62%; width: 90px;
+  height: 90px; left: 2%; top: 8%; width: 90px;
 }
 
 .home-orb-2 {
@@ -942,3 +942,62 @@ body:has(.home-hero) .navbar-toggler-icon { filter: invert(1); }
 .home-orb-2 { border-color: rgba(240, 160, 100, .65); box-shadow: 0 0 24px rgba(240, 160, 100, .3); }
 .home-orb-3 { background: radial-gradient(circle, rgba(143, 180, 230, .6), transparent 70%); }
 body:has(.home-hero) #quarto-document-content { margin-top: 0; }
+
+/* Whole homepage dark */
+
+body:has(.home-hero),
+body.quarto-light:has(.home-hero) { background: #08142a; }
+
+body:has(.home-hero) .home-eyebrow { color: #8fb4e6; }
+body:has(.home-hero) .home-h2 { color: #ffffff; }
+
+.home-facts {
+  background: linear-gradient(135deg, rgba(59, 111, 182, .22), rgba(124, 92, 214, .14));
+  border: 1px solid rgba(143, 180, 230, .22);
+  box-shadow: 0 0 50px rgba(59, 111, 182, .15);
+}
+.home-num { color: #ffffff; }
+.home-plus { color: #f0a064; }
+
+#listing-home-pubs table {
+  background: rgba(255, 255, 255, .03);
+  border: 1px solid rgba(143, 180, 230, .18);
+  color: #c3d1e6;
+}
+#listing-home-pubs table > :not(caption) > * > * {
+  background: transparent;
+  border-color: rgba(143, 180, 230, .14);
+  color: #c3d1e6;
+  box-shadow: none;
+}
+#listing-home-pubs th { color: #8fb4e6 !important; }
+#listing-home-pubs a { color: #ffffff; }
+#listing-home-pubs a:hover { color: #A9C6E8; }
+#listing-home-pubs tbody tr { transition: background-color .2s ease; }
+#listing-home-pubs tbody tr:hover > * { background: rgba(143, 180, 230, .07) !important; }
+@media (max-width: 640px) {
+  #listing-home-pubs tr { border-bottom-color: rgba(143, 180, 230, .14); }
+  #listing-home-pubs td:first-child { color: #f0a064; }
+  #listing-home-pubs td:last-child { color: #9fb2cf; }
+}
+
+.home-more a { color: #A9C6E8; }
+.home-more a:hover { color: #ffffff; }
+
+.home-contact p { color: #9fb2cf; }
+.home-contact .home-btn {
+  background: transparent;
+  border-color: rgba(223, 232, 245, .7);
+  color: #ffffff !important;
+}
+.home-contact .home-btn:hover { background: rgba(255, 255, 255, .1); }
+.home-contact .home-btn-primary { background: #ffffff; border-color: #ffffff; color: #0B1E3D !important; }
+.home-contact .home-btn-primary:hover { background: #E6EEF7; }
+.home-alt-mail { color: #9fb2cf !important; }
+.home-alt-mail a { color: #A9C6E8; }
+
+.home-hero { background-color: transparent; }
+.home-hero::after {
+  background: linear-gradient(transparent, #08142a);
+  bottom: 0; content: ""; height: 120px; left: 0; pointer-events: none; position: absolute; right: 0; z-index: 0;
+}
