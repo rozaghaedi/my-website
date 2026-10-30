@@ -1,32 +1,141 @@
 ---
-pagetitle: "Home"
+pagetitle: "Roza Ghaedi"
 page-layout: full
 format: html
+listing:
+  id: home-pubs
+  contents:
+    - publications/journal_articles/journal_articles.yml
+    - publications/working_papers/working_papers.yml
+    - publications/conference_papers/conference_papers.yml
+    - publications/book_chapters/book_chapters.yml
+  type: table
+  fields: [date, title, description]
+  field-display-names:
+    description: "Venue / status"
+  sort: "date desc"
+  date-format: "YYYY"
+  max-items: 4
+  sort-ui: false
+  filter-ui: false
 ---
 
-<section class="landing-page">
+<section class="home-hero">
 <img class="landing-chart-bg" src="images/home-chart-bg.svg" alt="">
 
-<div class="landing-hero">
-<div class="landing-copy">
-<div class="landing-name" role="heading" aria-level="1">Roza<br>Ghaedi</div>
+<div class="home-hero-inner">
+<div class="home-copy">
+<p class="home-hello">Hello, I'm</p>
+<div class="home-name" role="heading" aria-level="1">Roza Ghaedi</div>
 
-<p class="landing-tagline">
+<p class="home-roles"><span class="home-typed" data-roles="PhD Researcher at Cardiff University|AI for Health Equity|Machine Learning Researcher|Graph Neural Networks & Forecasting|Former Software Engineer">PhD Researcher at Cardiff University</span><span class="home-caret" aria-hidden="true"></span></p>
+
+<p class="home-tagline">
 I work on AI-driven forecasting and fairness-aware machine learning to reduce health screening inequalities, combining graph neural networks, discrete-event simulation, and qualitative research to help build more equitable public health systems.
 </p>
 
-<div class="landing-social" aria-label="Social links">
+<div class="home-social" aria-label="Social links">
 <a href="mailto:rozaghaedi90@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope"></i></a>
-<a href="https://github.com/rozaghaedi" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
-<a href="https://www.linkedin.com/in/rosa-ghaedi-b15329231/" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-<a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-bookmark-star-fill"></i></a>
+<a href="https://github.com/rozaghaedi" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+<a href="https://www.linkedin.com/in/rosa-ghaedi-b15329231/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
 </div>
 
+<div class="home-buttons">
+<a class="home-btn home-btn-primary" href="cv/Razieh_Ghaedi_CV.pdf" target="_blank" rel="noopener"><i class="bi bi-download"></i> Download CV</a>
+<a class="home-btn" href="about/index.qmd"><i class="bi bi-person"></i> About me</a>
+</div>
 </div>
 
-<div class="landing-visual">
-<!-- بعداً تصویر خودتون رو اینجا اضافه می‌کنیم -->
+<div class="home-photo-wrap">
+<div class="home-photo-ring"></div>
+<img class="home-photo" src="images/profile.jpg" alt="Portrait of Roza Ghaedi">
+<div class="home-badge"><i class="bi bi-geo-alt-fill"></i> Cardiff University</div>
 </div>
-
 </div>
 </section>
+
+<section class="home-section">
+<p class="home-eyebrow">What I do</p>
+<h2 class="home-h2">Areas of Expertise</h2>
+
+<div class="home-cards">
+<div class="home-card">
+<i class="bi bi-heart-pulse"></i>
+<h3>AI for Health Equity</h3>
+<p>Forecasting and resource optimisation to reduce health screening inequalities for underserved communities in Wales.</p>
+</div>
+<div class="home-card">
+<i class="bi bi-diagram-3"></i>
+<h3>Graph Neural Networks</h3>
+<p>Spatio-temporal GNNs and attention models for forecasting demand across regions and over time.</p>
+</div>
+<div class="home-card">
+<i class="bi bi-shield-check"></i>
+<h3>Fairness-Aware ML</h3>
+<p>Building well-calibrated, transparent models that perform fairly across different population groups.</p>
+</div>
+<div class="home-card">
+<i class="bi bi-gear-wide-connected"></i>
+<h3>Simulation &amp; OR</h3>
+<p>Discrete-event simulation and operational research, combined with qualitative work, to support service planning.</p>
+</div>
+</div>
+</section>
+
+<section class="home-section home-facts-band">
+<div class="home-facts">
+<div class="home-fact"><span class="home-num" data-count="7">7</span><span class="home-plus">+</span><p>Papers &amp; preprints</p></div>
+<div class="home-fact"><span class="home-num" data-count="5">5</span><p>Research projects</p></div>
+<div class="home-fact"><span class="home-num" data-count="3">3</span><p>Academic degrees</p></div>
+<div class="home-fact"><span class="home-num" data-count="7">7</span><span class="home-plus">+</span><p>Years in software engineering</p></div>
+</div>
+</section>
+
+<section class="home-section">
+<p class="home-eyebrow">Research</p>
+<h2 class="home-h2">Recent Publications</h2>
+
+::: {#home-pubs}
+:::
+
+<div class="home-more">
+<a href="publications/journal_articles/index.qmd">All publications <i class="bi bi-arrow-right"></i></a>
+<a href="projects/index.qmd">See my projects <i class="bi bi-arrow-right"></i></a>
+</div>
+</section>
+
+<section class="home-section home-contact">
+<h2 class="home-h2">Get in Touch</h2>
+<p>I'm always happy to talk about research collaborations in AI for health, forecasting, or fair machine learning.</p>
+<a class="home-btn home-btn-primary" href="mailto:rozaghaedi90@gmail.com"><i class="bi bi-envelope"></i> rozaghaedi90@gmail.com</a>
+</section>
+
+<script>
+(function () {
+  var el = document.querySelector('.home-typed');
+  if (el && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var roles = el.dataset.roles.split('|'), r = 0, i = roles[0].length, del = false;
+    (function tick() {
+      var word = roles[r];
+      el.textContent = word.slice(0, i);
+      var wait = del ? 45 : 85;
+      if (!del && i === word.length) { del = true; wait = 1800; }
+      else if (del && i === 0) { del = false; r = (r + 1) % roles.length; wait = 350; }
+      else { i += del ? -1 : 1; }
+      setTimeout(tick, wait);
+    })();
+  }
+  var nums = document.querySelectorAll('.home-num');
+  if (!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      io.unobserve(e.target);
+      var n = +e.target.dataset.count, k = 0;
+      var t = setInterval(function () { k++; e.target.textContent = k; if (k >= n) clearInterval(t); }, 900 / n);
+    });
+  }, { threshold: .5 });
+  nums.forEach(function (n) { n.textContent = '0'; io.observe(n); });
+})();
+</script>
