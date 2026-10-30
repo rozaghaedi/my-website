@@ -38,7 +38,8 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
 </p>
 
 <div class="home-social" aria-label="Social links">
-<a href="mailto:rozaghaedi90@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope"></i></a>
+<a href="mailto:ghaedir@cardiff.ac.uk" aria-label="University e-mail" title="ghaedir@cardiff.ac.uk"><i class="bi bi-envelope"></i></a>
+<a href="https://profiles.cardiff.ac.uk/research-staff/ghaedir" target="_blank" rel="noopener" aria-label="Cardiff University profile" title="Cardiff University profile"><i class="bi bi-bank"></i></a>
 <a href="https://github.com/rozaghaedi" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
 <a href="https://www.linkedin.com/in/rosa-ghaedi-b15329231/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
 <a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a>
@@ -57,7 +58,7 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
 </div>
 <div class="home-photo-ring"></div>
 <img class="home-photo" src="images/profile.jpg" alt="Portrait of Roza Ghaedi">
-<div class="home-badge"><i class="bi bi-geo-alt-fill"></i> Cardiff University</div>
+<a class="home-badge" href="https://profiles.cardiff.ac.uk/research-staff/ghaedir" target="_blank" rel="noopener"><i class="bi bi-geo-alt-fill"></i> Cardiff University</a>
 </div>
 </div>
 </section>
@@ -86,7 +87,11 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
 <section class="home-section home-contact home-reveal">
 <h2 class="home-h2">Get in Touch</h2>
 <p>I'm always happy to talk about research collaborations in AI for health, forecasting, or fair machine learning.</p>
-<a class="home-btn home-btn-primary" href="mailto:rozaghaedi90@gmail.com"><i class="bi bi-envelope"></i> rozaghaedi90@gmail.com</a>
+<div class="home-buttons home-contact-buttons">
+<a class="home-btn home-btn-primary" href="mailto:ghaedir@cardiff.ac.uk"><i class="bi bi-envelope"></i> ghaedir@cardiff.ac.uk</a>
+<a class="home-btn" href="https://profiles.cardiff.ac.uk/research-staff/ghaedir" target="_blank" rel="noopener"><i class="bi bi-bank"></i> University profile</a>
+</div>
+<p class="home-alt-mail">or <a href="mailto:rozaghaedi90@gmail.com">rozaghaedi90@gmail.com</a></p>
 </section>
 
 <script>

@@ -873,3 +873,12 @@ body:has(.home-hero) .nav-footer { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .home-orb, .home-photo, .home-badge, .home-photo-ring, .home-caret { animation: none !important; }
 }
+
+a.home-badge { text-decoration: none; }
+a.home-badge:hover { color: #123D78; }
+.home-contact-buttons { justify-content: center; }
+.home-alt-mail { margin: 1rem auto 0 !important; font-size: .95rem; }
+.home-alt-mail a { color: #123D78; font-weight: 600; }
+.home-contact-buttons { margin-top: 2.2rem; }
+.about-socials { display: flex !important; flex-direction: column; }
+.about-socials a { width: 100%; }
