@@ -1001,3 +1001,16 @@ body:has(.home-hero) .home-h2 { color: #ffffff; }
   background: linear-gradient(transparent, #08142a);
   bottom: 0; content: ""; height: 120px; left: 0; pointer-events: none; position: absolute; right: 0; z-index: 0;
 }
+
+/* About page: borderless link list */
+.about-socials { gap: .15rem; }
+.about-socials a {
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  height: 40px;
+  padding: 0 .6rem;
+}
+.about-socials a i { width: 1.2rem; text-align: center; color: #3B6FB6; }
+.about-socials a:hover { background: #E6EEF7; color: #0B1E3D; transform: translateX(4px); }
+.about-socials a:hover i { color: #123D78; }
