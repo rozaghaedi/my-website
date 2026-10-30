@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Home</title>
+<title>Roza Ghaedi – Home</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -28,17 +25,20 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-98ac9dcc37ce5dc0461d1b6a5ac50426.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-81acad9b36b3811f398523bc57262aa6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -54,10 +54,69 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-home-pubs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<meta property="og:title" content="Home">
-<meta property="og:image" content="https://rozaghaedi.github.io/my-website/images/home-chart-bg.svg">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-description","listing-categories","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-home-pubs'] = new List('listing-home-pubs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Roza Ghaedi">
+<meta property="og:description" content="">
+<meta property="og:image" content="images/home-chart-bg.svg">
 <meta property="og:site_name" content="Home">
 <meta property="og:image:alt" content="">
 </head>
@@ -69,6 +128,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Home</span>
     </a>
@@ -135,25 +196,240 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section class="landing-page">
+<section class="home-hero">
 <p><img class="landing-chart-bg" src="images/home-chart-bg.svg" alt=""></p>
-<div class="landing-hero">
-<div class="landing-copy">
-<div class="landing-name" role="heading" aria-level="1">
-Roza<br>Ghaedi
+<div class="home-hero-inner">
+<div class="home-copy">
+<p class="home-hello">
+Hello, I’m
+</p>
+<div class="home-name" role="heading" aria-level="1">
+Roza Ghaedi
 </div>
-<p class="landing-tagline">
+<p class="home-roles">
+<span class="home-typed" data-roles="PhD Researcher at Cardiff University|AI for Health Equity|Machine Learning Researcher|Graph Neural Networks &amp; Forecasting|Former Software Engineer">PhD Researcher at Cardiff University</span><span class="home-caret" aria-hidden="true"></span>
+</p>
+<p class="home-tagline">
 I work on AI-driven forecasting and fairness-aware machine learning to reduce health screening inequalities, combining graph neural networks, discrete-event simulation, and qualitative research to help build more equitable public health systems.
 </p>
-<div class="landing-social" aria-label="Social links">
-<p><a href="mailto:rozaghaedi90@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope"></i></a> <a href="https://github.com/rozaghaedi" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/rosa-ghaedi-b15329231/" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-bookmark-star-fill"></i></a></p>
+<div class="home-social" aria-label="Social links">
+<p><a href="mailto:rozaghaedi90@gmail.com" aria-label="E-mail" title="E-mail"><i class="bi bi-envelope"></i></a> <a href="https://github.com/rozaghaedi" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/rosa-ghaedi-b15329231/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://scholar.google.com/citations?user=FhUWJo4AAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar" title="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a></p>
+</div>
+<div class="home-buttons">
+<p><a class="home-btn home-btn-primary" href="cv/Razieh_Ghaedi_CV.pdf" target="_blank" rel="noopener"><i class="bi bi-download"></i> Download CV</a> <a class="home-btn" href="./about/index.html"><i class="bi bi-person"></i> About me</a></p>
 </div>
 </div>
-<div class="landing-visual">
-<!-- بعداً تصویر خودتون رو اینجا اضافه می‌کنیم -->
+<div class="home-photo-wrap">
+<div class="home-photo-ring">
+
+</div>
+<img class="home-photo" src="images/profile.jpg" alt="Portrait of Roza Ghaedi">
+<div class="home-badge">
+<i class="bi bi-geo-alt-fill"></i> Cardiff University
+</div>
 </div>
 </div>
 </section>
+<section class="home-section">
+<p class="home-eyebrow">
+What I do
+</p>
+<h2 class="home-h2 anchored">
+Areas of Expertise
+</h2>
+<div class="home-cards">
+<div class="home-card">
+<i class="bi bi-heart-pulse"></i>
+<h3 class="anchored">
+AI for Health Equity
+</h3>
+<p>
+Forecasting and resource optimisation to reduce health screening inequalities for underserved communities in Wales.
+</p>
+</div>
+<div class="home-card">
+<i class="bi bi-diagram-3"></i>
+<h3 class="anchored">
+Graph Neural Networks
+</h3>
+<p>
+Spatio-temporal GNNs and attention models for forecasting demand across regions and over time.
+</p>
+</div>
+<div class="home-card">
+<i class="bi bi-shield-check"></i>
+<h3 class="anchored">
+Fairness-Aware ML
+</h3>
+<p>
+Building well-calibrated, transparent models that perform fairly across different population groups.
+</p>
+</div>
+<div class="home-card">
+<i class="bi bi-gear-wide-connected"></i>
+<h3 class="anchored">
+Simulation &amp; OR
+</h3>
+<p>
+Discrete-event simulation and operational research, combined with qualitative work, to support service planning.
+</p>
+</div>
+</div>
+</section>
+<section class="home-section home-facts-band">
+<div class="home-facts">
+<div class="home-fact">
+<span class="home-num" data-count="7">7</span><span class="home-plus">+</span>
+<p>
+Papers &amp; preprints
+</p>
+</div>
+<div class="home-fact">
+<span class="home-num" data-count="5">5</span>
+<p>
+Research projects
+</p>
+</div>
+<div class="home-fact">
+<span class="home-num" data-count="3">3</span>
+<p>
+Academic degrees
+</p>
+</div>
+<div class="home-fact">
+<span class="home-num" data-count="7">7</span><span class="home-plus">+</span>
+<p>
+Years in software engineering
+</p>
+</div>
+</div>
+</section>
+<section class="home-section">
+<p class="home-eyebrow">
+Research
+</p>
+<h2 class="home-h2 anchored">
+Recent Publications
+</h2>
+<div id="listing-home-pubs" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Date
+</th>
+
+<th>
+Title
+</th>
+
+<th>
+Venue / status
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="TXVsdGktQWdlbnQlMjBBSSUyQ1N1cHBseSUyMENoYWluJTJDSW4lMjBQcmVwYXJhdGlvbg==" data-listing-date-sort="1748732400000" data-listing-title-sort="A Multi-Agent AI Framework for Forced Labour Risk Assessment in Global Supply Chains (tentative title)">
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-title">A Multi-Agent AI Framework for Forced Labour Risk Assessment in Global Supply Chains (tentative title)</span>
+</td>
+<td>
+<span class="listing-description">Ghaedi, R., Farhang, D., Vafadarnikjoo, A. Manuscript in preparation; experiments completed, writing in progress. Target journal: International Journal of Production Research (Special Issue: The Agentic Supply Chain). </span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="RGVlcCUyMExlYXJuaW5nJTJDQ29tcHV0ZXIlMjBWaXNpb24lMkNQcmVzZW50ZWQ=" data-listing-date-sort="1748732400000" data-listing-title-sort="Graph-Attention Network with Adversarial Domain Alignment for Robust Cross-Domain Facial Expression Recognition">
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<a href="https://proceedings.mlr.press/v304/ghaedi26a.html" class="title listing-title">Graph-Attention Network with Adversarial Domain Alignment for Robust Cross-Domain Facial Expression Recognition</a>
+</td>
+<td>
+<span class="listing-description">Presented at ACML 2025. Also see the <a href="https://drive.google.com/file/d/183MV4BVACMmreBg-kKKSp_jT-gOVzGYH/view?usp=drive_link">poster</a>. </span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="RGVlcCUyMExlYXJuaW5nJTJDQ2x1c3RlcmluZyUyQ1VuZGVyJTIwUmV2aWV3" data-listing-date-sort="1735689600000" data-listing-title-sort="SACA: Selective Attention-Based Clustering Algorithm">
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<a href="https://arxiv.org/abs/2508.17150" class="title listing-title">SACA: Selective Attention-Based Clustering Algorithm</a>
+</td>
+<td>
+<span class="listing-description">Under review at Knowledge-Based Systems journal. </span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="TkxQJTJDVG9waWMlMjBNb2RlbGxpbmclMkNVbmRlciUyMFJldmlldw==" data-listing-date-sort="1735689600000" data-listing-title-sort="A Text Mining and Topic Modelling Analysis of UK Modern Slavery Act Statements to Assess Effectiveness of Grievance Disclosures">
+<td>
+<span class="listing-date">2025</span>
+</td>
+<td>
+<span class="listing-title">A Text Mining and Topic Modelling Analysis of UK Modern Slavery Act Statements to Assess Effectiveness of Grievance Disclosures</span>
+</td>
+<td>
+<span class="listing-description">Vafadarnikjoo, A., Ghaedi, R., Imran, N. Under review at the International Journal of Computational Intelligence Systems. </span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div class="home-more">
+<p><a href="./publications/journal_articles/index.html">All publications <i class="bi bi-arrow-right"></i></a> <a href="./projects/index.html">See my projects <i class="bi bi-arrow-right"></i></a></p>
+</div>
+</section>
+<section class="home-section home-contact">
+<h2 class="home-h2 anchored">
+Get in Touch
+</h2>
+<p>
+I’m always happy to talk about research collaborations in AI for health, forecasting, or fair machine learning.
+</p>
+<a class="home-btn home-btn-primary" href="mailto:rozaghaedi90@gmail.com"><i class="bi bi-envelope"></i> rozaghaedi90@gmail.com</a>
+</section>
+<script>
+(function () {
+  var el = document.querySelector('.home-typed');
+  if (el && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var roles = el.dataset.roles.split('|'), r = 0, i = roles[0].length, del = false;
+    (function tick() {
+      var word = roles[r];
+      el.textContent = word.slice(0, i);
+      var wait = del ? 45 : 85;
+      if (!del && i === word.length) { del = true; wait = 1800; }
+      else if (del && i === 0) { del = false; r = (r + 1) % roles.length; wait = 350; }
+      else { i += del ? -1 : 1; }
+      setTimeout(tick, wait);
+    })();
+  }
+  var nums = document.querySelectorAll('.home-num');
+  if (!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      io.unobserve(e.target);
+      var n = +e.target.dataset.count, k = 0;
+      var t = setInterval(function () { k++; e.target.textContent = k; if (k >= n) clearInterval(t); }, 900 / n);
+    });
+  }, { threshold: .5 });
+  nums.forEach(function (n) { n.textContent = '0'; io.observe(n); });
+})();
+</script>
+
 
 
 
@@ -231,7 +507,7 @@ I work on AI-driven forecasting and fairness-aware machine learning to reduce he
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/rozaghaedi\.github\.io\/my-website\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

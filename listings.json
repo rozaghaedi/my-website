@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/publications/journal_articles/index.html",
+    "listing": "/publications/technical_reports/index.html",
     "items": []
   },
   {
@@ -9,14 +9,6 @@
   },
   {
     "listing": "/publications/working_papers/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/technical_reports/index.html",
-    "items": []
-  },
-  {
-    "listing": "/publications/conference_papers/index.html",
     "items": []
   },
   {
@@ -30,9 +22,21 @@
     ]
   },
   {
+    "listing": "/publications/conference_papers/index.html",
+    "items": []
+  },
+  {
+    "listing": "/publications/journal_articles/index.html",
+    "items": []
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/first-post/index.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]

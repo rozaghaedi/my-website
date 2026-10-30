@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Email  GitHub  LinkedIn  Scholar\n\n  Download CV \n\n\n\n\nAbout\n\n\nPhD Researcher, Cardiff University | AI for Health Equity\n\n\nI am a PhD Researcher at Cardiff University (Cardiff Business School, CARBS-funded), working on “Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting and Resource Optimisation for Underserved Communities”, supervised by Prof. Bahman Rostami-Tabar and Prof. Paul Harper. My research combines spatio-temporal graph neural networks, fairness-aware machine learning, discrete-event simulation, and qualitative social science to help health services plan more equitably.\n\n\nBefore starting this PhD, I earned an MSc in Computer Science (Distinction) from Manchester Metropolitan University, with a dissertation on “deep learning-based cross-domain facial expression recognition”. My earlier work on multimodal learning, affective computing, and human-centered AI now feeds into how I approach building fair, well-calibrated, and socially responsible AI systems for healthcare.\n\n\nEducation\n\n\n\nPhD in Management (AI for Health Equity), Cardiff University, Cardiff Business School — CARBS-funded, supervised by Prof. Bahman Rostami-Tabar and Prof. Paul Harper\n\n\nMSc in Computer Science (Distinction, GPA 80/100), Manchester Metropolitan University, UK — Sep 2023 to Oct 2024. Dissertation: Deep Learning-Based Cross-Domain Facial Expression Recognition\n\n\nBSc in Information Technology Engineering — Sep 2009 to Feb 2014\n\n\n\nExperience\n\n\n\nResearch Associate, University of Sheffield — 2024 to 2026\n\n\nSoftware Engineer, Novin Asan Tech Mana Company, Shiraz, Iran — 2014 to 2021\n\n\n\nAcademic Service\n\n\n\nPeer Reviewer, Discover Artificial Intelligence (Springer Nature) — 2025 to Present\n\n\nPeer Reviewer, IEEE Transactions on Consumer Electronics — 2025 to Present\n\n\n\nExplore my full list of publications on Google Scholar."
+  },
+  {
     "objectID": "blog/first-post/index.html",
     "href": "blog/first-post/index.html",
     "title": "Welcome to my blog",
@@ -7,46 +14,11 @@
     "text": "Welcome! I’ll be using this space to share updates on my research in deep learning, multimodal AI, and human-centered AI, along with notes on papers, projects, and conferences I attend.\nStay tuned for more posts."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Home",
+    "objectID": "publications/technical_reports/index.html",
+    "href": "publications/technical_reports/index.html",
+    "title": "Technical Reports",
     "section": "",
-    "text": "RaziehGhaedi\n\n\nI work on AI-driven forecasting and fairness-aware machine learning to reduce health screening inequalities, combining graph neural networks, discrete-event simulation, and qualitative research to help build more equitable public health systems."
-  },
-  {
-    "objectID": "talks/index.html",
-    "href": "talks/index.html",
-    "title": "Home",
-    "section": "",
-    "text": "I haven’t given any public talks yet — check back soon, or explore my projects and publications in the meantime."
-  },
-  {
-    "objectID": "projects/gat-fer/index.html",
-    "href": "projects/gat-fer/index.html",
-    "title": "Graph-Attention Network for Cross-Domain Facial Expression Recognition",
-    "section": "",
-    "text": "Integrated ResNet-50 and Graph Attention Networks with adversarial domain alignment (MMD, CORAL, GRL). Achieved 74% mean accuracy across six datasets: RAF-DB, FER2013, CK+, JAFFE, ExpW, and SFEW2.0.\nThis work was presented at ACML 2025.\nView code on GitHub"
-  },
-  {
-    "objectID": "projects/lda-grievance/index.html",
-    "href": "projects/lda-grievance/index.html",
-    "title": "LDA-Based Grievance Mechanism Analysis",
-    "section": "",
-    "text": "Applied advanced LDA topic modelling to 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics to analyse patterns in corporate disclosure practices.\nView code on GitHub"
-  },
-  {
-    "objectID": "projects/corporate-ethics-ai/index.html",
-    "href": "projects/corporate-ethics-ai/index.html",
-    "title": "Corporate Ethics Automation System",
-    "section": "",
-    "text": "Kaggle Agents Intensive hackathon entry: built a Google ADK automation tool to replicate KnowTheChain benchmark workflows in under 60 seconds using PDF extraction, sentiment analysis, correlation analysis, and regression.\nView code on GitHub · View writeup on Kaggle"
-  },
-  {
-    "objectID": "publications/journal_articles/index.html",
-    "href": "publications/journal_articles/index.html",
-    "title": "Journal Articles",
-    "section": "",
-    "text": "Author/(s)\n\n\n\nTitle\n\n\n\nKeywords\n\n\n\n\n\n\n\n\nShirdel, M., Ghaedi, R., Fan, X.\n\n\nSACA: Selective Attention-Based Clustering Algorithm\n\n\nDeep Learning, Clustering, Under Review\n\n\n\n\n\n\nZarina, O., Saleh Pour, M. J., Ghaedi, R., Shafei Khah, M.\n\n\nMarkov-Based Reliability Assessment for Distribution Systems Considering Failure Rates\n\n\nReliability Assessment, Power Systems, Published\n\n\n\n\n\n\nNo matching items"
+    "text": "Title\n\n\n\nDescription\n\n\n\nKeywords\n\n\n\n\n\n\n\n\nHarsha Chamara Hewage, H. Niles Perera, Shari De Baets, Forecast adjustments during post-promotional periods, European Journal of Operational Research.\n\n\nWe study judgmental forecast adjustments in pre-promotional (normal), promotional and post-promotional periods via behavioral experiments. Forecasters need structured support to make effective adjustments during post-promotional periods. The…\n\n\nPython, Machine Learning, Data Cleaning\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/book_chapters/index.html",
@@ -63,18 +35,18 @@
     "text": "Title\n\n\n\nDescription\n\n\n\nKeywords\n\n\n\n\n\n\n\n\nA Multi-Agent AI Framework for Forced Labour Risk Assessment in Global Supply Chains (tentative title)\n\n\nGhaedi, R., Farhang, D., Vafadarnikjoo, A. Manuscript in preparation; experiments completed, writing in progress. Target journal: International Journal of Production Research (Special Issue: The Agentic Supply Chain). \n\n\nMulti-Agent AI, Supply Chain, In Preparation\n\n\n\n\n\n\nA Text Mining and Topic Modelling Analysis of UK Modern Slavery Act Statements to Assess Effectiveness of Grievance Disclosures\n\n\nVafadarnikjoo, A., Ghaedi, R., Imran, N. Under review at the International Journal of Computational Intelligence Systems. \n\n\nNLP, Topic Modelling, Under Review\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications/technical_reports/index.html",
-    "href": "publications/technical_reports/index.html",
-    "title": "Technical Reports",
+    "objectID": "projects/corporate-ethics-ai/index.html",
+    "href": "projects/corporate-ethics-ai/index.html",
+    "title": "Corporate Ethics Automation System",
     "section": "",
-    "text": "Title\n\n\n\nDescription\n\n\n\nKeywords\n\n\n\n\n\n\n\n\nHarsha Chamara Hewage, H. Niles Perera, Shari De Baets, Forecast adjustments during post-promotional periods, European Journal of Operational Research.\n\n\nWe study judgmental forecast adjustments in pre-promotional (normal), promotional and post-promotional periods via behavioral experiments. Forecasters need structured support to make effective adjustments during post-promotional periods. The…\n\n\nPython, Machine Learning, Data Cleaning\n\n\n\n\n\n\nNo matching items"
+    "text": "Kaggle Agents Intensive hackathon entry: built a Google ADK automation tool to replicate KnowTheChain benchmark workflows in under 60 seconds using PDF extraction, sentiment analysis, correlation analysis, and regression.\nView code on GitHub · View writeup on Kaggle"
   },
   {
-    "objectID": "publications/conference_papers/index.html",
-    "href": "publications/conference_papers/index.html",
-    "title": "Conference Papers",
+    "objectID": "projects/lda-grievance/index.html",
+    "href": "projects/lda-grievance/index.html",
+    "title": "LDA-Based Grievance Mechanism Analysis",
     "section": "",
-    "text": "Author/(s)\n\n\n\nTitle\n\n\n\nKeywords\n\n\n\n\n\n\n\n\nGhaedi, R., BabaAhmadi, A., Alam, N., Fan, X.\n\n\nGraph-Attention Network with Adversarial Domain Alignment for Robust Cross-Domain Facial Expression Recognition\n\n\nDeep Learning, Computer Vision, Presented\n\n\n\n\n\n\nNo matching items"
+    "text": "Applied advanced LDA topic modelling to 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics to analyse patterns in corporate disclosure practices.\nView code on GitHub"
   },
   {
     "objectID": "projects/mpdd-depression/index.html",
@@ -84,11 +56,11 @@
     "text": "Built a multimodal, personalized depression detection system that fuses voice, facial cues, and personal attributes to predict depression level using attention-based deep learning, developed for the MPDD Challenge @ ACM Multimedia 2025.\nView code on GitHub"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Home",
     "section": "",
-    "text": "LDA-Based Grievance Mechanism Analysis\n\n\nTopic modelling of 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics.\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nGraph-Attention Network for Cross-Domain Facial Expression Recognition\n\n\nResNet-50 and Graph Attention Networks with adversarial domain alignment, achieving 74% mean accuracy across six datasets.\n\n\n\n\n\n\nApr 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nRepoForge AI: Agentic Test Generation for Public Python Repositories\n\n\nA multi-agent system that scans public Git repositories and generates validated pytest suites using RAG over ChromaDB-indexed code with Gemini-based generation.\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nCorporate Ethics Automation System\n\n\nA Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry).\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nMultimodal Personalized Depression Detection\n\n\nFusing voice, facial cues, and personal attributes to predict depression level using attention-based deep learning (MPDD Challenge @ ACM Multimedia 2025).\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "I haven’t given any public talks yet — check back soon, or explore my projects and publications in the meantime."
   },
   {
     "objectID": "projects/repoforge-ai/index.html",
@@ -98,17 +70,45 @@
     "text": "Built a multi-agent system (an OrchestratorAgent plus specialised agents for ingestion, code analysis, API discovery, retrieval, test planning, and test writing) that scans public Git repositories and generates validated pytest suites.\nCombined RAG over ChromaDB-indexed code chunks with Gemini-based generation, plus safety checks (secret redaction, unsafe-pattern blocking) to produce reviewable, downloadable test artifacts."
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Home",
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
     "section": "",
-    "text": "Email  GitHub  LinkedIn  Scholar\n\n  Download CV \n\n\n\n\nAbout\n\n\nPhD Researcher, Cardiff University | AI for Health Equity\n\n\nI am a PhD Researcher at Cardiff University (Cardiff Business School, CARBS-funded), working on “Reducing Health Screening Inequalities in Wales: AI-Driven Forecasting and Resource Optimisation for Underserved Communities”, supervised by Prof. Bahman Rostami-Tabar and Prof. Paul Harper. My research combines spatio-temporal graph neural networks, fairness-aware machine learning, discrete-event simulation, and qualitative social science to help health services plan more equitably.\n\n\nBefore starting this PhD, I earned an MSc in Computer Science (Distinction) from Manchester Metropolitan University, with a dissertation on “deep learning-based cross-domain facial expression recognition”. My earlier work on multimodal learning, affective computing, and human-centered AI now feeds into how I approach building fair, well-calibrated, and socially responsible AI systems for healthcare.\n\n\nEducation\n\n\n\nPhD in Management (AI for Health Equity), Cardiff University, Cardiff Business School — CARBS-funded, supervised by Prof. Bahman Rostami-Tabar and Prof. Paul Harper\n\n\nMSc in Computer Science (Distinction, GPA 80/100), Manchester Metropolitan University, UK — Sep 2023 to Oct 2024. Dissertation: Deep Learning-Based Cross-Domain Facial Expression Recognition\n\n\nBSc in Information Technology Engineering — Sep 2009 to Feb 2014\n\n\n\nExperience\n\n\n\nResearch Associate, University of Sheffield — 2024 to 2026\n\n\nSoftware Engineer, Novin Asan Tech Mana Company, Shiraz, Iran — 2014 to 2021\n\n\n\nAcademic Service\n\n\n\nPeer Reviewer, Discover Artificial Intelligence (Springer Nature) — 2025 to Present\n\n\nPeer Reviewer, IEEE Transactions on Consumer Electronics — 2025 to Present\n\n\n\nExplore my full list of publications on Google Scholar."
+    "text": "LDA-Based Grievance Mechanism Analysis\n\n\nTopic modelling of 2,957 grievance documents from UK Modern Slavery Act statements, identifying 18 optimal topics.\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nGraph-Attention Network for Cross-Domain Facial Expression Recognition\n\n\nResNet-50 and Graph Attention Networks with adversarial domain alignment, achieving 74% mean accuracy across six datasets.\n\n\n\n\n\n\nApr 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nRepoForge AI: Agentic Test Generation for Public Python Repositories\n\n\nA multi-agent system that scans public Git repositories and generates validated pytest suites using RAG over ChromaDB-indexed code with Gemini-based generation.\n\n\n\n\n\n\nMar 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nCorporate Ethics Automation System\n\n\nA Google ADK multi-agent automation tool that replicates KnowTheChain benchmark workflows in under 60 seconds (Kaggle Agents Intensive hackathon entry).\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\nMultimodal Personalized Depression Detection\n\n\nFusing voice, facial cues, and personal attributes to predict depression level using attention-based deep learning (MPDD Challenge @ ACM Multimedia 2025).\n\n\n\n\n\n\nJan 1, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/gat-fer/index.html",
+    "href": "projects/gat-fer/index.html",
+    "title": "Graph-Attention Network for Cross-Domain Facial Expression Recognition",
+    "section": "",
+    "text": "Integrated ResNet-50 and Graph Attention Networks with adversarial domain alignment (MMD, CORAL, GRL). Achieved 74% mean accuracy across six datasets: RAF-DB, FER2013, CK+, JAFFE, ExpW, and SFEW2.0.\nThis work was presented at ACML 2025.\nView code on GitHub"
+  },
+  {
+    "objectID": "publications/conference_papers/index.html",
+    "href": "publications/conference_papers/index.html",
+    "title": "Conference Papers",
+    "section": "",
+    "text": "Author/(s)\n\n\n\nTitle\n\n\n\nKeywords\n\n\n\n\n\n\n\n\nGhaedi, R., BabaAhmadi, A., Alam, N., Fan, X.\n\n\nGraph-Attention Network with Adversarial Domain Alignment for Robust Cross-Domain Facial Expression Recognition\n\n\nDeep Learning, Computer Vision, Presented\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/journal_articles/index.html",
+    "href": "publications/journal_articles/index.html",
+    "title": "Journal Articles",
+    "section": "",
+    "text": "Author/(s)\n\n\n\nTitle\n\n\n\nKeywords\n\n\n\n\n\n\n\n\nShirdel, M., Ghaedi, R., Fan, X.\n\n\nSACA: Selective Attention-Based Clustering Algorithm\n\n\nDeep Learning, Clustering, Under Review\n\n\n\n\n\n\nZarina, O., Saleh Pour, M. J., Ghaedi, R., Shafei Khah, M.\n\n\nMarkov-Based Reliability Assessment for Distribution Systems Considering Failure Rates\n\n\nReliability Assessment, Power Systems, Published\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/index.html",
     "href": "blog/index.html",
     "title": "Home",
     "section": "",
-    "text": "Welcome to my blog\n\n\nFirst post — more research updates coming soon.\n\n\n\n\n\nJul 13, 2026\n\n\nRazieh Ghaedi\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog\n\n\nFirst post — more research updates coming soon.\n\n\n\n\n\nJul 13, 2026\n\n\nRoza Ghaedi\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hello, I’m\n\n\nRoza Ghaedi\n\n\nPhD Researcher at Cardiff University\n\n\nI work on AI-driven forecasting and fairness-aware machine learning to reduce health screening inequalities, combining graph neural networks, discrete-event simulation, and qualitative research to help build more equitable public health systems.\n\n\n   \n\n\n Download CV  About me\n\n\n\n\n\n\n\n\n Cardiff University\n\n\n\n\n\n\nWhat I do\n\n\nAreas of Expertise\n\n\n\n\n\nAI for Health Equity\n\n\nForecasting and resource optimisation to reduce health screening inequalities for underserved communities in Wales.\n\n\n\n\n\nGraph Neural Networks\n\n\nSpatio-temporal GNNs and attention models for forecasting demand across regions and over time.\n\n\n\n\n\nFairness-Aware ML\n\n\nBuilding well-calibrated, transparent models that perform fairly across different population groups.\n\n\n\n\n\nSimulation & OR\n\n\nDiscrete-event simulation and operational research, combined with qualitative work, to support service planning.\n\n\n\n\n\n\n\n7+\n\nPapers & preprints\n\n\n\n5\n\nResearch projects\n\n\n\n3\n\nAcademic degrees\n\n\n\n7+\n\nYears in software engineering\n\n\n\n\n\n\nResearch\n\n\nRecent Publications\n\n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nVenue / status\n\n\n\n\n\n\n\n\n2025\n\n\nA Multi-Agent AI Framework for Forced Labour Risk Assessment in Global Supply Chains (tentative title)\n\n\nGhaedi, R., Farhang, D., Vafadarnikjoo, A. Manuscript in preparation; experiments completed, writing in progress. Target journal: International Journal of Production Research (Special Issue: The Agentic Supply Chain). \n\n\n\n\n\n\n2025\n\n\nGraph-Attention Network with Adversarial Domain Alignment for Robust Cross-Domain Facial Expression Recognition\n\n\nPresented at ACML 2025. Also see the poster. \n\n\n\n\n\n\n2025\n\n\nSACA: Selective Attention-Based Clustering Algorithm\n\n\nUnder review at Knowledge-Based Systems journal. \n\n\n\n\n\n\n2025\n\n\nA Text Mining and Topic Modelling Analysis of UK Modern Slavery Act Statements to Assess Effectiveness of Grievance Disclosures\n\n\nVafadarnikjoo, A., Ghaedi, R., Imran, N. Under review at the International Journal of Computational Intelligence Systems. \n\n\n\n\n\n\nNo matching items\n\n\nAll publications  See my projects \n\n\n\n\nGet in Touch\n\n\nI’m always happy to talk about research collaborations in AI for health, forecasting, or fair machine learning.\n\n rozaghaedi90@gmail.com"
   }
 ]
